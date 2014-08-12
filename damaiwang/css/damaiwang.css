@@ -1,0 +1,320 @@
+*{margin: 0;padding: 0;}
+body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
+li{list-style: none;}
+a{text-decoration: none; color: #333;}
+
+/*---------------------顶部广告-----------------------------------*/
+#guanggaoTop{width: 100%;height: 100px;}
+#guanggaoTop1{width: 1000px;height: 100px;margin: auto; position: relative;}
+#closeTop{width: 20px;height: 20px; background-image: url("images/ico-index-common.png"); background-position: -270px -226px; position: absolute; top:5px; left: 973px;}
+#erweima{width: 108px;height: 220px;background-image:url("images/wap-code.png"); background-position: 0 -82px; background-repeat: no-repeat; position: absolute; top:0px; right: 0px; position: fixed;}
+/*---------------------顶部广告end-----------------------------------*/
+
+
+/*---------------------顶部-----------------------------------*/
+#Top{width: 100%; height: 37px; border-bottom: 1px solid #e6e6e6;}
+#topDetil{width: 1000px ;height: 36px;margin: auto;}
+#top1{width: 242px;height: 36px; float: left;}
+.collect{float: left; line-height: 36px; margin: 0 6px 0 0;}
+.font1{color: #333;}
+.font2{color: rgb(195,195,195); line-height: 36px; float: left; margin: 0 6px 0 0;}
+.info{float: left; line-height: 36px; margin: 0 6px 0 0;}
+.font3{color: #930000;}
+.mydamaidetail{float: left; line-height: 36px; width: 48px;height: 36px; position: relative;}
+.mydamaiHide{width: 48px; height: 180px; position: absolute; top:36px; left: 0;}
+.mydamai{ line-height: 36px;}
+.fr{width: 560px; height: 45px; float: right;}
+.yuyan{float: right; width: 120px ;height: 22px; background-image: url("images/top.png"); background-position: 0 -222px; margin: 8px 0 0 0; line-height: 20px;}
+.English{float: right; margin: 0 8px 0 0; color: #e51b69;}
+.Chinese{float: right; margin: 0 27px 0 0;}
+.font4{color: rgb(195,195,195); line-height: 36px; float: right; margin: 0 10px 0 0;}
+.WB_FB_plus{float:right; width: 43px;height: 20px; padding: 0 7px 0 7px; border: 1px solid rgb(236, 209, 129);margin: 8px 6px 0 0; position: relative;}
+.jiantou{width: 7px; height: 9px; background-image: url("images/bg_flbtn.png"); background-position:-190px -15px; position: absolute; right: 55px; top:6px;}
+.fensiNum{line-height: 20px;color: #333}
+.fensiNum:hover{color: #1582bd}
+.guanzhu{width: 62px;height: 22px;float: right; margin: 8px 2px 0 0; background-image: url("images/bg_flbtn.png"); background-position:-126px 0; line-height: 22px;}
+.font5{color: #1582bd; float: right; margin: 0 5px 0 0;}
+.weiboLogo{width: 16px; height: 14px; float: right; margin: 3px 2px 0 0;background-image: url("images/bg_flbtn.png"); background-position:-190px 0;}
+.help{width: 58px; height: 20px; float: right; margin: 8px 6px 0 0; border: 2px solid #ccc;}
+.font6{line-height: 20px; color: #333;}
+.guide{width: 58px; height: 20px; float: right; margin: 8px 6px 0 0; border: 2px solid #ccc;}
+.cart{width: 98px;height: 22px; float: right; margin: 8px 6px 0 0; border: 1px solid #ccc;}
+.cartImg{width: 20px; height: 20px;float: left;margin: 0 0 0 5px;background-image: url("images/top.png"); background-position: 0 -129px;}
+.cartFont{width: 65px;height: 20px;float: left; line-height: 20px;}
+.cart_count{color: #e51a45;}
+
+/*---------------------顶部end-----------------------------------*/
+
+
+/*---------------------head-----------------------------------*/
+#head{width: 100%; height: 90px;}
+#headDetil{width: 1000px; height: 90px;margin: auto;}
+#logo{width: 352px;height: 60px;float: left; margin: 15px 0 0 0;}
+#logo1{width: 110px; height: 60px; float: left;}
+#logo2{width: 126px; height: 47px;float: left; margin: 6px 0 0 5px;}
+#city{width: 79px;height: 21px; float: left; margin: 12px 0 0 10px;background-image: url("images/top.png"); background-position:0 -319px;}
+.changeCity{display: block; line-height: 21px; float: left; margin: 0 0 0 7px;}
+#search{width: 410px;height: 52px; margin: 20px 0 0 8px;float: left;}
+#searchMain{width: 420px;height: 30px;}
+#searchArea{width: 290px;height: 30px;background-image: url("images/top.png"); background-position:0 -259px;float: left;}
+#searchLogo{width: 130px;height: 30px;background-image: url("images/top.png"); background-position:-334px -259px; background-repeat: no-repeat;float: left;}
+#star{width: 410px;height: 14px; margin: 8px 0 0 0;}
+.first{float: left; margin: 0 10px 0 0;}
+.font7{color: #999;}
+.font8{color: rgb(195,195,195); line-height: 14px; float: left; margin: 0 10px 0 0;}
+.font9{color: #328ac7;text-decoration: underline;}
+.quickGuide{width: 210px;height: 44px; margin: 19px 0 0 0;padding: 0 20px 0 0; float: left;}
+.LogoA{width: 70px;height: 44px;float: left;}
+.LogoA1{width: 37px; height: 28px; margin: 0 auto 0 auto;}
+.LogoA2{width: 70px;height: 16px;line-height: 16px;}
+.LogoA3{text-align: center; color: #999;}
+/*---------------------head  end-----------------------------------*/
+
+
+/*---------------------topNav-----------------------------------*/
+#topNav{width: 100%; height: 37px; background-image: url("images/bg-index-common.png"); background-position: 0 -57px;}
+#nav{width: 1000px; height: 37px; margin: auto;}
+#navA{width: 200px;height: 37px;float: left;background-image: url("images/bg-index-common.png"); background-position: 0 -359px;}
+#navA1{width: 170px;height: 37px; margin: 0 0 0 30px; line-height: 37px;}
+.font10{color: #fff; font-size: 14px; float: left;}
+#navA2{width: 624px; height: 37px; float: left; margin: 0 0 0 10px;}
+.navFont{width: auto;height: auto;display: block; padding: 0 8px 0 8px; float: left; line-height: 37px; color: #fff; font-size: 14px;}
+#navA3{width: 166px;height: 37px;float: left; }
+.navFont1{width: auto;height: auto;display: block; padding: 0 0 0 3px; float: right; line-height: 37px; color: #fff; font-size: 14px;}
+.navFont2{ color: #fff; float: right; line-height: 37px; font-size: 14px; display: block; padding: 0 0 0 3px;}
+/*---------------------topNav  end-----------------------------------*/
+
+
+
+/*---------------------mainTop-----------------------------------*/
+#mainTop{width: 100%;height: 368px; margin: 0 0 25px 0;}
+#mainTopA{width: 1000px;height: 368px; margin: auto;}
+#mainTopLeft{width: 198px;height: 363px;float: left; padding: 4px 0 0 0; border: 1px solid rgb(255,206,206); border-top: none; position: relative;}
+.typeTop{width: 194px;height: 33px; text-align: center;}
+.typeTop1{background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; margin: auto;}
+.typeTopImg{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:10px;}
+.typeTopFont{color: #333; display: block; line-height: 33px; font-size: 12px; margin: 0 0 0 40px; width:80px; height: 33px;}
+.typeTopPic{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:15px;}
+.typeTopImg1{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:43px;}
+.typeTopPic1{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:48px;}
+.typeTopImg2{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:76px;}
+.typeTopPic2{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:81px;}
+.typeTopImg3{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:109px;}
+.typeTopPic3{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:114px;}
+.typeTopImg4{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:142px;}
+.typeTopPic4{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:147px;}
+.typeTopImg5{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:175px;}
+.typeTopPic5{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:180px;}
+.typeTopImg6{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:208px;}
+.typeTopPic6{width: 33px;height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -453px; background-repeat: no-repeat;position: absolute; left: 160px; top:213px;}
+.typeTopImg7{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:241px;}
+.typeTopImg8{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:274px;}
+.typeTopImg9{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:307px;}
+.typeTopImg10{width: 33px; height: 22px;background-image: url("images/bg-index-common.png"); background-position: 0 -755px; background-repeat: no-repeat; position: absolute; left: 23px; top:340px;}
+#mainTopRight{width: 790px;height: 360px; float: left; margin: 8px 0 0 10px;}
+/*---------------------mainTop  end-----------------------------------*/
+
+/*---------------------indexcon-----------------------------------*/
+#indexcon{width: 100%; height: 322px; margin: 0 0 25px 0;}
+#indexMain{width: 1000px;height: 322px;margin: auto;}
+#indexLeft{width: 760px;height: 322px;float: left;}
+.indexLogo{width: 200px;height: 45px;float: left;background-image: url("images/ico-index-common.png"); background-position:-90px -174px;}
+.indexStar{width: 540px; height: 30px;float: left; margin: 0 0 0 20px; line-height: 30px;}
+.indexFont{color: #666; float: left; margin: 0 10px 0 0;}
+.indexFont1{color: #666; float: left; margin: 0 20px 0 0;}
+#poster{width: 752px; height: 260px; padding: 15px 3px 15px 3px; border:1px solid #efefef; margin: 30px 0 0 0; position: relative;}
+.showposter1{width: 158px;height: 256px;float: left; padding: 4px 15px 0 15px;}
+.showposterPic{width: 150px; height: 200px;margin: 0 4px 0 4px;}
+.posterPic{width: 150px;height: 200px;}
+.showposterInfo{display: block; width: 158px;height: 40px; text-align: left; line-height: 40px; color: #333;}
+.priceInfo{width: 158px;height: 14px;text-align: left;}
+.price{color: #999;}
+.pricedetil{font-size: 14px; font-weight: bold;}
+.flag{width: 58px;height: 58px;background-image: url("images/ico-index-common.png");position: absolute; top:16px;left: 206px;}
+.flag1{width: 58px;height: 58px;background-image: url("images/ico-index-common.png");position: absolute; top:16px;left: 582px;}
+#indexRight{width: 230px;height: 322px;float: right;}
+.shownotice{width: 230px;height: 30px;}
+.shownoticecon{width: 210px;height: 252px;padding: 19px 9px 19px 9px; border:1px solid #efefef;}
+.shownoticePic{width: 210px;height: 100px;}
+.shownoticePicdetil{width: 210px;height: 100px; }
+.showBottom{width: 210px; height: 140px; padding:9px 0 0 0; border-top:1px dashed #ccc; margin: 15px 0 0 0;}
+.showBottomDetil{width: 195px;height: 28px; padding: 0 0 0 15px;text-align: left;}
+.showBottomFont1{color: #e51a45; float: left;}
+.showBottomFont2{width: 138px;height: 14px;color: #333; overflow: hidden;float: left;}
+/*---------------------indexcon  end-----------------------------------*/
+
+
+/*---------------------indexMiddle-----------------------------------*/
+#indexMiddle{width: 100%; height: 82px;}
+#indexMiddleA{width: 1000px;height: 57px; margin: auto auto 25px auto;}
+.indexlead{width: 250px;height: 57px;float: left;}
+
+
+/*---------------------indexMiddle  end-----------------------------------*/
+
+
+/*---------------------middleCity-----------------------------------*/
+#middleCity{width: 100%;height: 561px;}
+#middleCityMain{width: 1000px;height: 536px;margin: auto auto 25px auto;}
+.showlist{width: 760px;height: 536px; float: left;}
+.city{width: 754px;height: 44px; padding: 0 0 0 6px;background-image: url("images/bg-index-common.png"); background-position: 0 -57px;}
+.showcityon{width: 65px;height: 44px; background-color: #fff; float: left;}
+.showliston{color: #e51a45; font-weight: bold; line-height: 36px;}
+.showcityoff{width: 65px;height: 44px; float: left;}
+.showlistoff{color: #fff; font-weight: bold; line-height: 36px;}
+.cityMore{width: 104px;height: 44px;float: left;}
+.total{width: 710px;height: 27px; padding: 0 25px 0 25px; margin: 0 0 25px 0; color: rgb(153, 153, 153); text-align: left;}
+.font11{color: #333;}
+.showlistLeft{width: 280px;height: 440px; float: left;}
+.showlistRight{width: 450px;height: 440px; float: right;}
+.showlistLeftPic{width: 280px;height: 440px;}
+.showlistRightDetil1{width: 450px; height: 230px; padding: 0 0 20px 0; border-bottom:1px dashed #ccc;}
+.showlistRightDetil1Left{width: 230px; height: 230px; float: left;}
+.showlistRightDetil1Right{width: 200px; height: 230px;float: right;}
+.showlistRightDetil1RightPic{width: 200px;height: 85px;}
+.showlistRightDetil1RightFont{width: 200px; height: 88px; margin: 10px 0 0 0;}
+.font12{text-align: left; color:#999; line-height:22px; display: block;}
+.showlistRightBottom{width: 480px;height: 169px; padding: 20px 0 0 0;}
+.showlistRightBottomposter{width: 130px;height: 169px; margin: 0 25px 0 0;float: left;}
+.showlistRightBottomposterPic{width: 130px;height: 135px;}
+.showlistRightBottomposterTitle{width: 120px;height: 35px; padding: 0 5px 0 5px; background-color: #f1f1f1; line-height: 35px;}
+.middleCityRight{width: 230px;height: 536px;float: right; position: relative;}
+.middleCityRightBor{width: 228px;height: 324px; border: 1px solid #efefef;}
+.middleCityRightTitle{width: 228px;height: 30px;}
+.middleCityRightTitle1{width: 114px;height: 30px; display: block; text-align: center; background-color: #fff; font-size: 16px; line-height: 30px;float: left;}
+.middleCityRightTitle2{width: 114px;height: 30px; display: block; text-align: center; background-color: #f3f3f3; font-size: 16px; line-height: 30px; float:left; }
+.middleCityTest{width: 228px;height: 226px;}
+.middleCityTestImg{width: 210px;height: 100px; margin: 15px 9px 0 9px;}
+.middleCityTestText{width: 210px;height: 117px; margin: 9px 9px 0 9px;}
+.middleCityTestFont1{width: 210px;height: 21px; padding: 4px 0 4px 0; border-bottom: 1px dashed #ccc}
+.middleCityTestTextSpan1{width: 18px;height: 18px; float: left; line-height: 18px; background-color: #e51a45;border-radius:2px; font-size: 14px;color: #fff;font-weight: bold; margin:1px 0 0 0;}
+.middleCityTestTextFont1{color: #e51a45;width: 182px;height: 20px;display: block; float: left; padding: 0 0 0 10px; line-height: 20px; text-align: left;}
+.middleCityTestTextSpan2{width: 11px; height: 11px;float: left; line-height: 11px; background-color:#b7b7b7;border-radius:2px; font-size: 10px;color: #fff;font-weight: bold;margin: 4px 0 0 0 ;}
+.middleCityTestTextFont2{color: #333;width: 182px;height: 20px;display: block; float: left; padding: 0 0 0 10px; line-height: 20px; text-align: left;}
+.middleCityTestMore{width: 46px;height: 32px;margin: 0 9px 0 0; display: block; float: right; font-size: 12px; text-align: left; line-height: 32px;}
+.mai{width: 228px;height: 188px; margin: 20px 0 0 0; border: 1px solid #efefef;}
+.starThings{width: 58px; height: 58px; background-image: url("images/ico-index-common.png");background-position: 0 -116px; position: absolute; top: 344px; left: 174px;}
+
+
+
+
+
+/*---------------------middleCity  end-----------------------------------*/
+
+
+/*---------------------cityfollow-----------------------------------*/
+#cityfollow{width: 100%;height: 327px; margin: auto auto 25px auto;}
+.cityfollowMain{width: 1000px;height: 327px; margin: auto;}
+.cityfollowShow{width: 760px;height: 327px;float: left;}
+.channeltang{width: 230px;height: 325px; border: 1px solid #efefef;float: right;}
+.cityfollowtitle{width: 760px; height: 30px; border-bottom: 1px solid #efefef;}
+.indexhostName{width: 90px; height: 22px;float: left; text-align: left; font-size: 16px; line-height: 30px;}
+.indexhosttitleName{width: 670px;height: 30px;float: left;}
+.cityinfoOn{width: 57px; height: 30px; margin: 0 0 0 1px; background-color: #ff7e00; float: left;}
+.cityFontOn{line-height: 30px; color: #fff;}
+.cityinfoOff{width: 57px; height: 30px; margin: 0 0 0 1px; float: left;}
+.cityFontOff{line-height: 30px; }
+.categoryprojectlist{width: 800px; height: 266px; padding: 30px 0 0 0;}
+.projectlist{width: 150px;height: 266px;float: left; margin: 0 50px 0 0;}
+.projectlistPic{width: 150px; height: 200px;}
+.projectlistFont{width: 150px; text-align: left;display: block; line-height: 18px; margin:0 0 8px 0;}
+.channel{width: 210px;height: 30px; padding: 0 10px 0 10px; text-align: left; line-height: 30px; font-size: 16px; background-color: #f3f3f3;}
+.TangInfoData{width: 230px;height: 276px;}
+.TangInfoPic{width: 220px;height: 135px; padding: 4px 0 0 0;margin: 0 5px 0 5px;}
+.TangInfoTitle{width: 206px;height: 44px; margin: 8px 12px 8px 12px; display: block; line-height: 22px; text-align: left; font-size: 14px; overflow: hidden;}
+.original{width: 206px;height: 18px; margin: 0 12px 0 12px; text-align: left; display: block; text-decoration: line-through;}
+.TangInfoContent{width: 206px;height: 36px; margin: 5px 12px 0 12px; overflow: hidden; line-height: 18px; color: #999; text-align: left; font-size: 12px;}
+
+
+
+
+
+
+
+
+/*---------------------cityfollow  end-----------------------------------*/
+
+
+
+/*---------------------starArea-----------------------------------*/
+#starArea{width: 100%;height: 367px; margin: 0 0 25px 0;}
+#starAreaMain{width: 1000px; height: 367px; margin: auto;}
+.channelotherti{width: 1000px;height: 30px;border-bottom: 2px solid #e51a45;}
+.channelothertiLeft{width: 108px;height: 22px;float: left;text-align: left;font-size: 18px;}
+.channelothertiRight{width: 72px;height: 22px; float: right;padding: 0 12px 0 0; margin: 0 10px 0 0;}
+.starimglist{width: 1000px;height: 320px; margin: 15px 0 0 0;}
+.s1{width: 230px;height: 320px; float: left; display: block;}
+.Img1{width: 230px;height: 320px; }
+.s2{width: 210px;height: 320px; float: left; display: block; margin: 0 0 0 10px;}
+.Img2{width: 210px;height: 210px; }
+.Img3{width: 210px;height: 100px; margin: 7px 0 0 0;}
+.s3{width: 100px;height: 320px; float: left; display: block; margin: 0 0 0 10px;}
+.Img4{width: 100px;height: 100px;}
+.Img5{width: 100px;height: 100px; margin: 7px 0 0 0;}
+.Img6{width: 100px;height: 100px; margin: 7px 0 0 0;}
+.s4{width: 210px;height: 320px; float: left; display: block; margin: 0 0 0 10px;}
+.Img7{width: 210px;height: 100px;}
+.Img8{width: 210px;height: 210px; margin: 7px 0 0 0;}
+.s5{width: 210px;height: 320px;float: left; display: block; margin: 0 0 0 10px;}
+.Img9{width: 210px;height: 100px;}
+.Img10{width: 210px;height: 210px;margin: 7px 0 0 0;}
+
+
+
+
+
+
+/*---------------------starArea  end-----------------------------------*/
+
+
+/*---------------------floor1-----------------------------------*/
+.channeldrama{width: 100%;height: 382px; ; margin: 0 0 25px 0;}
+.floor1{width: 1000px;height: 382px;margin: auto;padding: 0 0 5px 0;}
+.floor1Title{width: 1000px;height: 30px;border-bottom: 2px solid #ff8106; line-height: 30px;}
+.num1{width: 60px;height: 22px; float: left; background-image: url("images/ico-index-common.png"); background-position: 0 -174px;}
+.floortheme{width: 72px;height: 22px;float: left; font-size: 18px; font-family: 宋体;}
+.dramacitylist{width: 213px;height: 30px; margin: 0 0 0 20px; float: left;}
+.dramacitylistOn{width: 52px; height: 30px;margin: 0 0 0 8px; background-color: #ff7e00; float: left;}
+.dramacitylistfontOn{color: #fff;}
+.dramacitylistOff{width: 52px; height: 30px;margin: 0 0 0 8px; float: left;}
+.floorMain1{width: 990px;height: 350px; margin: 0 5px 0 5px; background-image: url("images/bg-channel-drama.png");}
+.dramaRank{width: 186px;height: 319px; padding: 25px 25px 0 25px; margin: 0 1px 0 0; float: left;}
+.smalllist{width: 186px;height:304px; }
+.topNum{width: 16px;height: 14px;background-color: rgb(255, 129, 6); color: #fff;float: left; margin: 0 0 15px 0; }
+.smalllistTitle{width: 160px;height: 14px; margin: 0 0 15px 0; float: left; text-align: left; padding: 0 0 0 10px;}
+.smalllistC{width: 186px; height: 14px; margin: 0 0 15px 0; color:rgb(255, 129, 6); text-align: left; font-size: 14px; }
+.topNumB{width: 16px;height: 14px;background-color: #b6b6b6; color: #fff;float: left; margin: 0 0 15px 0; }
+.dramaPoster{width: 447px;height: 335px; padding: 15px 0 0 0; margin: 0 0 0 35px; float: left;}
+.dramaPosterUp{width: 447px; height:230px; }
+.dramaPosterOn{width: 135px;height: 210px; padding: 0 7px 0 7px; float: left;}
+.dramaPosterOnPic{width: 135px;height: 180px;}
+.dramaPosterPrice{width: 135px;height: 20; line-height: 20px; text-align: left; float: left;}
+.dramaPosterOff{width: 135px;height: 210px; padding: 0 7px 0 7px; float: left;}
+.dramaPosterOffPic{width: 135px;height: 180px;}
+.dramaPosterDown{width: 447px; height: 94px; margin: 10px 0 0 0;}
+.dramaPosterDownTitle{width: 76px;height: 15px; margin: 5px 0 0 15px; line-height: 15px;}
+.dramaPosterOnFont{width: 447px; height: 64px; margin: 10px 0 0 0; color: rgb(153, 153, 153); line-height: 20px; text-align: left;}
+
+
+/*---------------------floor1 end-----------------------------------*/
+
+/*---------------------floor2-----------------------------------*/
+.floor2Title{width: 1000px;height: 30px;border-bottom: 2px solid #9c0; line-height: 30px;}
+.num2{width: 60px;height: 22px; float: left; background-image: url("images/ico-index-common.png"); background-position: 0 -196px;}
+.floormain2{width: 970px;height: 330px; padding: 10px; margin: 0 5px 0 5px;}
+.floor2Left{width: 460px;height: 330px; float: left;}
+.floor2Right{width: 490px;height: 330px; float: right;}
+.floor2RightLeft{width: 225px; height: 330px; float: left; }
+.floor2RightLeftUp{width: 225px;height: 165px; padding: 0 10px 0 10px;}
+.floor2RightLeftFont{display: block;width: 225px;height: 40px; line-height: 40px;text-align: center;}
+.floor2RightRight{width: 225px; height: 330px; float: right; }
+
+
+
+
+
+
+
+
+
+/*---------------------floor2 end-----------------------------------*/
