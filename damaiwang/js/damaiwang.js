@@ -49,6 +49,30 @@ $(function(){
 	});
 
 
+	$(".helpHide").hover(function(){
+		$(this).css({
+			"display":"block"
+			
+		});
+		$(this).parent().find(".help").css({
+			"border": "2px solid #ffc7d2",
+			"border-bottom": "none"
+		});
+		
+	},function(){
+		$(this).css({
+			"display":""
+		});
+		$(this).parent().find(".help").css({
+			"border": "",
+			"border-bottom": ""
+		});
+	});
+
+
+
+
+
 	$(".guide").hover(function(){
 		$(this).css({
 			
@@ -70,6 +94,258 @@ $(function(){
 			"display":""
 		});
 	});
+
+
+
+	$(".guideHide").hover(function(){
+		$(this).css({
+			
+			"display": "block"
+		});
+		$(this).parent().find(".guide").css({
+			"border": "2px solid #ffc7d2",
+			"border-bottom": "2px solid #fff",
+			"z-index": "2"
+		});
+		
+	},function(){
+		$(this).css({
+			"display": ""
+		});
+		$(this).parent().find(".guide").css({
+			"border": "",
+			"border-bottom": "",
+			"z-index": ""
+		});
+
+	});
+
+
+
+
+
+
+
+	$("#OpenHide").hover(function(){
+		$(this).find(".typeTopHide").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg").css({
+			"background-position":"0 -806px"
+		});
+
+	},function(){
+		$(this).find(".typeTopHide").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg").css({
+			"background-position":""
+		});
+	});
+
+
+
+
+
+	$("#OpenHide1").hover(function(){
+		$(this).find(".typeTopHide1").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg1").css({
+			"background-position":"0 -806px"
+		});
+
+		
+	},function(){
+		$(this).find(".typeTopHide1").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg1").css({
+			"background-position":""
+		});
+
+	});
+
+
+
+
+
+
+	$("#OpenHide2").hover(function(){
+		$(this).find(".typeTopHide2").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg2").css({
+			"background-position":"0 -806px"
+		});
+		
+	},function(){
+		$(this).find(".typeTopHide2").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg2").css({
+			"background-position":""
+		});
+
+	});
+
+
+
+
+
+	$("#OpenHide3").hover(function(){
+		$(this).find(".typeTopHide3").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg3").css({
+			"background-position":"0 -806px"
+		});
+		
+	},function(){
+		$(this).find(".typeTopHide3").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg3").css({
+			"background-position":""
+		});
+
+	});
+
+	
+
+
+
+
+
+	$("#OpenHide4").hover(function(){
+		$(this).find(".typeTopHide4").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg4").css({
+			"background-position":"0 -806px"
+		});
+		
+	},function(){
+		$(this).find(".typeTopHide4").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg4").css({
+			"background-position":""
+		});
+
+	});
+
+	
+
+
+
+
+	$("#OpenHide5").hover(function(){
+		$(this).find(".typeTopHide5").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg5").css({
+			"background-position":"0 -806px"
+		});
+		
+	},function(){
+		$(this).find(".typeTopHide5").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg5").css({
+			"background-position":""
+		});
+
+	});
+
+
+
+
+
+
+	$("#OpenHide6").hover(function(){
+		$(this).find(".typeTopHide6").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			"background-image":'url("css/images/bg-index-common.png")',
+			"background-position":"0 -398px"
+		});
+		$(this).parent().find(".typeTopImg6").css({
+			"background-position":"0 -806px"
+		});
+
+	},function(){
+		$(this).find(".typeTopHide6").css({
+			"display": ""
+		});
+		$(this).css({
+			"background-image":"",
+			"background-position":""
+		});
+		$(this).parent().find(".typeTopImg6").css({
+			"background-position":""
+		});
+
+	});
+
+
+
 
 
 
@@ -162,26 +438,18 @@ $(function(){
 
 	$(".LogoMore").hover(function(){
 		$(this).css({
-			
 			"background-image": 'url("css/images/dingzhi.png")',
 			"background-position":"0 -26px"
 		});
-
-
-		$(this).find(".LogoMoreHide").css({
-			
+		$(this).parent().find(".LogoMoreHide").css({
 			"display": "block"
 		});
 	},function(){
-
 		$(this).css({
-			
 			"background-image": "",
 			"background-position":""
 		});
-
-
-		$(this).find(".LogoMoreHide").css({
+		$(this).parent().find(".LogoMoreHide").css({
 			
 			"display": "none"
 		});
@@ -195,7 +463,121 @@ $(function(){
 
 
 
+
+
+	$(".turnPic").hover(function(){
+		$(this).parent().find(".turnUp").css({
+			
+			"display": "block"
+		});
+		$(this).parent().find(".turnDown").css({
+			
+			"display": "block"
+		});
+		
+	},function(){
+		$(this).parent().find(".turnUp").css({
+			
+			"display": ""
+		});
+		$(this).parent().find(".turnDown").css({
+			
+			"display": ""
+		});
+	});
+
+
+
+
+
+
+
+
+
+
+
+	$(".turnUp").hover(function(){
+		$(this).css({
+			
+			"display": "block"
+		});
+		$(this).parent().find(".turnDown").css({
+			
+			"display": "block"
+		});
+		
+	},function(){
+		$(this).css({
+			
+			"display": ""
+		});
+		$(this).parent().find(".turnDown").css({
+			
+			"display": ""
+		});
+	});
+
+
+
+
+
+
+
+	$(".turnDown").hover(function(){
+		$(this).parent().find(".turnUp").css({
+			
+			"display": "block"
+		});
+		$(this).css({
+			
+			"display": "block"
+		});
+		
+	},function(){
+		$(this).parent().find(".turnUp").css({
+			
+			"display": ""
+		});
+		$(this).css({
+			
+			"display": ""
+		});
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -211,65 +593,115 @@ $(function(){
 	$(".turndian").click(function(){
 
 		currIndex = $(this).attr("picindex");
-		shuzuA=currIndex;
+		
 		showFlashImage();
 	});
 	$(".turnPic").hover(function(){
 		clearInterval(timerHandle);
 	},function(){
-		timerHandle = setInterval("showFlashImage()",2000);
+		timerHandle = setInterval("showFlashImage()",5000);
 	});
-	timerHandle = setInterval("showFlashImage()",2000);
+	timerHandle = setInterval("showFlashImage()",5000);
 
 
 
 
 });
 
+
+$(function(){
+	//showFlashImage();
+	$(".turnUp").click(function(){
+		
+	clearInterval(timerHandle);
+	currIndex--;
+	currIndex--;
+	if (currIndex == 1){
+
+		currIndex = 14;	
+		showFlashImage();
+	}
+	else if (currIndex == 0){
+
+		currIndex = 13;	
+		showFlashImage();
+	}
+	else{
+		showFlashImage();
+	}
+	timerHandle = setInterval("showFlashImage()",5000);
+
+	});
+});
+
+
+$(function(){
+	//showFlashImage();
+	$(".turnDown").click(function(){
+		
+	clearInterval(timerHandle);
+	
+	if (currIndex == 15){
+
+		currIndex = 2;	
+		showFlashImage();
+	}
+
+	else{
+		showFlashImage();
+	}
+	timerHandle = setInterval("showFlashImage()",5000);
+
+	});
+});
+
+
+
 var timerHandle;
-var currIndex = 1;
+var currIndex = 3;
 
 
 
-var shuzuA = 1;
+
 
 
 
 var picAddress=new Array('url("images/1.jpg")',
 		'url("images/2.gif")',
 		'url("images/3.jpg")',
-		'url("image/4.jpg")',
-		'url("image/5.jpg")',
-		'url("image/6.jpg")',
-		'url("image/7.jpg")',
-		'url("image/8.jpg")',
-		'url("image/9.jpg")',
-		'url("image/10.jpg")',
-		'url("image/11.jpg")',
-		'url("image/lm9Right/T1TrawFglbXXXXPav4-200-250.jpg")',
-		'url("image/lm9Right/T1hCStFXxfXXXXPav4-200-250.jpg")',
-		'url("image/lm9Right/T1TrawFglbXXXXPav4-200-250.jpg")',
-		'url("image/lm9Right/T1VdGxFe8XXXXXPav4-200-250.jpg")',
-		'url("image/lm9Right/T11bSwFm8bXXXXPav4-200-250.jpg")'
+		'url("images/4.jpg")',
+		'url("images/5.jpg")',
+		'url("images/6.jpg")',
+		'url("images/7.jpg")',
+		'url("images/8.jpg")',
+		'url("images/9.jpg")',
+		'url("images/10.gif")',
+		'url("images/11.jpg")',
+		'url("images/12.jpg")',
+		'url("images/13.jpg")'
 		);
 
 
 
 
 function showFlashImage(){
-	 $(".turnPic").css("background-image",picAddress[shuzuA-1]);
-	 shuzuA++;
-	 if(shuzuA==14)
-	 {
-	 	shuzuA=1;
-	 }
+	 $(".turnPic").css("background-image",picAddress[currIndex-2]);
+	 
 
 	//$(".turnPic").css("background-image",'url("images/3.jpg")');
 	$(".turndian").removeClass("current");
 	$("#turnNum" + currIndex).addClass("current");
 	currIndex++;
-	if (currIndex == 14){
-		currIndex = 1;
+	if (currIndex == 15){
+		currIndex = 2;
 		
 	}
 }
+
+
+
+
+
+
+
+
