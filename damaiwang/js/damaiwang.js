@@ -548,6 +548,33 @@ $(function(){
 
 
 
+	$(".cityMore").click( function () {
+		var b = $(this).find(".MoreHide").attr("showA");
+		if(b == "1"){	 
+			$(".cityMoreHide").show();
+			$(this).find(".MoreHide").attr("showA","0");
+			$(this).css({	
+				"background-image": 'url("css/images/bg-index-common.png")',
+				"background-position": "0 -242px"
+			});
+			$(this).find(".MoreHide").css({
+				"color":"#e51a45"
+			});
+		}
+		else{	 
+			$(".cityMoreHide").hide();
+			$(this).find(".MoreHide").attr("showA","1");
+			$(this).css({
+				"background-image": 'url("css/images/bg-index-common.png")',
+				"background-position": "0 -57px"
+				
+			});
+			$(this).find(".MoreHide").css({
+				"color":""
+			});
+		}
+
+	});
 
 
 
@@ -555,7 +582,38 @@ $(function(){
 
 
 
+	$(".middleCityRightTitle2").click( function () { 
+		$(this).parent().parent().find(".middleCityTest").hide();
+		$(this).parent().parent().find(".middleCityTest1").show(); 
+		$(this).css({
+			"background-color": "#fff"
+		});
+		$(this).parent().find(".middleCityRightTitle1").css({
+			"background-color": "#f3f3f3"
+		});
+	});
 
+	$(".middleCityRightTitle1").click( function () { 
+		$(this).parent().parent().find(".middleCityTest1").hide();
+		$(this).parent().parent().find(".middleCityTest").show(); 
+		$(this).css({
+			"background-color": "#f3f3f3"
+		});
+		$(this).parent().find(".middleCityRightTitle1").css({
+			"background-color": "#fff"
+		});
+	});
+
+
+
+	$(".ImgPic").hover(function(){
+		$(this).parent().find(".ImgHide").animate({"top": "0"},500);
+		
+	},function(){
+		$(this).parent().find(".ImgHide").animate({"top": "210px"},500);
+		$(this).parent().find(".ImgHide").animate({"top": "-210px"},0);
+
+	});
 
 
 
@@ -702,6 +760,141 @@ function showFlashImage(){
 
 
 
+var currInfoIndex = 0;
+
+
+$(function(){
+	$(".showUp").click(function(){
+
+		currInfoIndex = $(this).parent().parent().parent().attr("InfoIndex");
+
+		showInfoUp();
+	});
+
+});
+
+$(function(){
+	$(".showDown").click(function(){
+
+		currInfoIndex = $(this).parent().parent().parent().attr("InfoIndex");
+
+		showInfoDown();
+	});
+
+});
 
 
 
+
+function showInfoUp(){
+	$("#shownoticecon" + currInfoIndex).css("display","none");
+	currInfoIndex--;
+	if(currInfoIndex == 0){
+		currInfoIndex = 3;
+	}
+	$("#shownoticecon" + currInfoIndex).css("display","block");
+}
+
+function showInfoDown(){
+	$("#shownoticecon" + currInfoIndex).css("display","none");
+	currInfoIndex++;
+	if(currInfoIndex == 4){
+		currInfoIndex = 1;
+	}
+	$("#shownoticecon" + currInfoIndex).css("display","block");
+}
+
+
+
+
+
+
+
+
+
+
+
+var currshowlistIndex = 1;
+
+$(function(){
+	$(".showcityoff").click(function(){
+
+
+
+		$(".cityMoreHide").hide();
+		$(this).parent().find(".MoreHide").css({
+			"color": "#fff", 
+			"font-weight": "bold", 
+			"line-height": "36px"
+				
+		});
+		$(this).parent().find(".cityMore").css({
+			"background-image": 'url("images/bg-index-common.png")',
+			"background-position": "0 -57px"
+				
+		});
+
+
+
+
+		currshowlistIndex = $(this).attr("showlistIndex");
+
+		showlistwhere();
+	});
+
+});
+
+
+
+function showlistwhere(){
+	$(".showstate").removeClass("showcityon");
+	$(".showstate").addClass("showcityoff");
+
+	$(".showstate").find(".showlistoff").removeClass("showliston");
+	
+
+	$(".showwherecity" + currshowlistIndex).addClass("showcityon");
+	$(".showwherecity" + currshowlistIndex).removeClass("showcityoff");
+	$(".showwherecity" + currshowlistIndex).find(".showlistoff").addClass("showliston");
+	$(".showlist").css("display","none");
+	
+	$("#showlist" + currshowlistIndex).css("display","block");
+
+
+	$("#cityfollowShow1").css("display","none");
+	$(".cityfollowShow").css("display","none");
+	$("#cityfollowShow" + currshowlistIndex).css("display","block");
+}
+
+
+
+
+
+
+
+
+
+
+var currcityName = 1;
+
+$(function(){
+	$(".cityButton").click(function(){
+		$(".categoryprojectlist").hide();
+		$(".categoryprojectlist1").hide();
+		currcityName = $(this).attr("cityName");
+		$(".categoryprojectlist" + currcityName).show();
+
+
+		$(this).parent().find(".cityButton").removeClass("cityinfoOn");
+		$(this).parent().find(".cityButton").addClass("cityinfoOff");
+		$(this).addClass("cityinfoOn");
+
+		$(this).parent().find(".cityFont").removeClass("cityFontOn");
+		$(this).parent().find(".cityFont").addClass("cityFontOff");
+		$(this).find(".cityFont").addClass("cityFontOn");
+
+
+
+	});
+
+});
