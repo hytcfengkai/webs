@@ -621,6 +621,70 @@ $(function(){
 
 
 
+
+	var M1 = 0;
+
+	$(".dramaPosterButton").hover(function(){
+		$(this).parent().parent().find(".dramaPosterDown").hide();
+		$(this).parent().parent().find(".dramaPosterDown1").hide();
+		M1 = $(this).attr("citydramaPoster");
+		$(this).parent().parent().find(".dramaPosterDown"+M1).show();
+		
+	},function(){
+		
+	});
+
+
+
+
+	var M2 = 0
+	$(".dramacitylistButton").click( function () {
+		$(this).parent().find(".dramacitylistButton").removeClass("dramacitylistOn");
+		$(this).parent().find(".dramacitylistButton").addClass("dramacitylistOff");
+		$(this).parent().find(".dramacitylistfon").removeClass("dramacitylistfontOn");
+		$(this).parent().find(".dramacitylistfon").addClass("dramacitylistfontOff");
+
+		M2 = $(this).attr("citydrama"); 
+		$(this).parent().find(".dramacitylistButton"+M2).addClass("dramacitylistOn"); 
+		$(this).parent().find(".dramacitylistfon"+M2).addClass("dramacitylistfontOn");
+
+
+		$(this).parent().parent().parent().find(".floorMain1").hide();
+		$(this).parent().parent().parent().find(".floorMain2").hide();
+		$(this).parent().parent().parent().find(".floorMain3").hide();
+		$(this).parent().parent().parent().find(".floorMain"+M2).show();
+	});
+
+
+
+
+
+	$(".floor3MainRightLi").hover(function(){
+		$(this).parent().parent().find(".floor3MainMiddle").hide();
+		$(this).parent().parent().find(".floor3MainMiddle1").hide();
+		var controlLi = $(this).attr("floor3MainControlMiddle");
+		$(this).parent().parent().find(".floor3MainMiddle"+controlLi).show();
+		
+		$(this).parent().find(".floor3MainRightLi").css({
+			 "background-image":'url("css/images/bg-index-common.png")',
+			 "background-position":"0 -240px",
+			 "background-color":"none"
+		});
+		$(this).css({
+			 "background-image":"none", 
+			 "background-color":"#cb0f10"
+		});
+
+	});
+
+
+
+
+
+
+
+
+
 });
 
 
@@ -898,3 +962,73 @@ $(function(){
 	});
 
 });
+
+
+
+
+
+
+
+var currDianji = 2;
+
+$(function(){
+	$(".DianJi").click(function(){
+
+		
+		
+		
+	});
+	currDianji = $(".DianJi").attr("DianjiNum");
+	showFlashPic();
+	$(".PicFlash").hover(function(){
+		clearInterval(timerStop);
+	},function(){
+		timerStop = setInterval("showFlashPic()",3000);
+	});
+	timerStop = setInterval("showFlashPic()",3000);
+
+
+
+
+});
+
+
+
+function showFlashPic(){
+	if(currDianji == 5){
+		
+		$(".floor2Left"+[currDianji-1]).animate({"left": "-460px"},1000);
+		//$(".floor2Left1").animate({"left": "0"},5000);
+		$(".floor2Left"+[currDianji-1]).animate({"left": "460px"},0);
+		//$(".floor2Left").animate({"left": "460px"},0);
+
+		currDianji = 1;
+	}
+	$(".floor2Left"+currDianji).animate({"left": "0"},1000);
+	$(".DianJi").removeClass("currentDianJiOn");
+	$(".DianJi").addClass("currentDianJiOff")
+	$(".DianJi"+currDianji).addClass("currentDianJiOn")
+	if(currDianji != 1){
+		if(currDianji != 4){
+			$(".floor2Left"+[currDianji-1]).animate({"left": "-460px"},1000);
+			//$(".floor2Left"+[currDianji-1]).animate({"left": "460px"},0);
+			currDianji++; 
+		}
+		else{
+			$(".floor2Left"+[currDianji-1]).animate({"left": "-460px"},1000);
+			$(".floor2Left1").animate({"left": "460px"},0);
+			$(".floor2Left2").animate({"left": "460px"},0);
+			$(".floor2Left3").animate({"left": "460px"},0);
+			currDianji++; 
+			
+		}
+	}
+	else{
+		currDianji++;
+	}
+	//$(".floor2Left1").animate({"left": "0"},2000);
+	
+	
+
+	
+}

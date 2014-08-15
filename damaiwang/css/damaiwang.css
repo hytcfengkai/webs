@@ -347,13 +347,21 @@ a{text-decoration: none; color: #333;}
 .s2D{width: 100px;height: 100px; margin: 10px 0 0 0; overflow: hidden; position: relative;}
 .Img5Hide{width: 100px;height: 60px;position: absolute; top: -100px; background-color: #ff0048; text-align: center; color: #fff; font-size: 20px;opacity: 0.85; padding: 40px 0 0 0;}
 .Img5{width: 100px;height: 100px;}
-.Img6{width: 100px;height: 100px; margin: 10px 0 0 0;}
+.s2E{width: 100px;height: 100px; margin: 10px 0 0 0; overflow: hidden; position: relative;}
+.Img6{width: 100px;height: 100px;}
+.Img6Hide{width: 100px;height: 60px;position: absolute; top: -100px; background-color: #ff0048; text-align: center; color: #fff; font-size: 20px;opacity: 0.85; padding: 40px 0 0 0;}
 .s4{width: 210px;height: 320px; float: left; display: block; margin: 0 0 0 10px;}
 .Img7{width: 210px;height: 100px;}
-.Img8{width: 210px;height: 210px; margin: 7px 0 0 0;}
+.Img7Hide{width: 210px;height: 60px;position: absolute; top: -100px; background-color: #ff0048; text-align: center; color: #fff; font-size: 20px;opacity: 0.85; padding: 40px 0 0 0;}
+.s2F{width: 210px;height: 100px; overflow: hidden; position: relative;}
+.s2G{width: 210px;height: 210px; margin: 10px 0 0 0; overflow: hidden; position: relative;}
+.Img8Hide{width: 210px;height: 130px; position: absolute; top: -210px; background-color: #ff0048; text-align: center; color: #fff; font-size: 20px;opacity: 0.85; padding: 80px 0 0 0;}
+.Img8{width: 210px;height: 210px;}
 .s5{width: 210px;height: 320px;float: left; display: block; margin: 0 0 0 10px;}
+.s2H{width: 210px;height: 100px; overflow: hidden; position: relative;}
+.Img9Hide{width: 210px;height: 60px;position: absolute; top: -100px; background-color: #ff0048; text-align: center; color: #fff; font-size: 20px;opacity: 0.85; padding: 40px 0 0 0;}
 .Img9{width: 210px;height: 100px;}
-.Img10{width: 210px;height: 210px;margin: 7px 0 0 0;}
+.Img10{width: 210px;height: 210px;margin: 10px 0 0 0;}
 
 
 
@@ -374,11 +382,13 @@ a{text-decoration: none; color: #333;}
 .dramacitylistfontOn{color: #fff;}
 .dramacitylistOff{width: 52px; height: 30px;margin: 0 0 0 8px; float: left;}
 .dramacitylistfontOff:hover{color: #e51a45;}
-.floorMain1{width: 990px;height: 350px; margin: 0 5px 0 5px; background-image: url("images/bg-channel-drama.png");}
+.floorMain{width: 990px;height: 350px; margin: 0 5px 0 5px; background-image: url("images/bg-channel-drama.png"); display: none;}
+.floorMain1{display: block;}
 .dramaRank{width: 186px;height: 319px; padding: 25px 25px 0 25px; margin: 0 1px 0 0; float: left;}
 .smalllist{width: 186px;height:304px; }
 .topNum{width: 16px;height: 14px;background-color: rgb(255, 129, 6); color: #fff;float: left; margin: 0 0 15px 0; }
 .smalllistTitle{width: 160px;height: 14px; margin: 0 0 15px 0; float: left; text-align: left; padding: 0 0 0 10px;}
+.smalllistTitle:hover{color: #e51a45; }
 .smalllistC{width: 186px; height: 14px; margin: 0 0 15px 0; color:rgb(255, 129, 6); text-align: left; font-size: 14px; }
 .topNumB{width: 16px;height: 14px;background-color: #b6b6b6; color: #fff;float: left; margin: 0 0 15px 0; }
 .dramaPoster{width: 447px;height: 335px; padding: 15px 0 0 0; margin: 0 0 0 35px; float: left;}
@@ -388,7 +398,8 @@ a{text-decoration: none; color: #333;}
 .dramaPosterPrice{width: 135px;height: 20; line-height: 20px; text-align: left; float: left;}
 .dramaPosterOff{width: 135px;height: 210px; padding: 0 7px 0 7px; float: left;}
 .dramaPosterOffPic{width: 135px;height: 180px;}
-.dramaPosterDown{width: 447px; height: 94px; margin: 10px 0 0 0;}
+.dramaPosterDown{width: 447px; height: 94px; margin: 10px 0 0 0; display: none;}
+.dramaPosterDown1{display: block;}
 .dramaPosterDownTitle{width: 76px;height: 15px; margin: 5px 0 0 15px; line-height: 15px;}
 .dramaPosterOnFont{width: 447px; height: 64px; margin: 10px 0 0 0; color: rgb(153, 153, 153); line-height: 20px; text-align: left;}
 
@@ -398,12 +409,26 @@ a{text-decoration: none; color: #333;}
 /*---------------------floor2-----------------------------------*/
 .floor2Title{width: 1000px;height: 30px;border-bottom: 2px solid #9c0; line-height: 30px;}
 .num2{width: 60px;height: 22px; float: left; background-image: url("images/ico-index-common.png"); background-position: 0 -196px;}
-.floormain2{width: 970px;height: 330px; padding: 10px; margin: 0 5px 0 5px;}
-.floor2Left{width: 460px;height: 330px; float: left;}
+.floormain2{width: 970px;height: 330px;margin: 10px 5px 0 5px; }
+.floormainOver{width: 460px;height: 330px; float: left;position: relative; overflow: hidden; background-image: url("images/c30aed76-a023-469d-8855-1c4d559c2e87.jpg");}
+.floor2Left{width: 460px;height: 330px; float: left; position: absolute; top:0; left: 460px;}
+.floor2Left1{display: block;position: absolute; top:0; left:0;}
+.PicFlash{width: 460px;height: 290px;}
+.PicDaoH{width: 420px;height: 20px;background-color: #9c0; padding: 10px 20px 10px 20px; text-align: left; font-size: 20px; color: #fff;}
+
+.DianJi{width: 12px; height: 12px; float: right; margin: 4px 0 0 3px;}
+.DianJi1{position: absolute; bottom:14px; right: 65px;z-index: 100;}
+.DianJi2{position: absolute; bottom:14px; right: 50px;z-index: 100;}
+.DianJi3{position: absolute; bottom:14px; right: 35px;z-index: 100;}
+.DianJi4{position: absolute; bottom:14px; right: 20px;z-index: 100;}
+.floormainOver .currentDianJiOn{ background-image: url("images/bg-slide.png"); background-position: 0 1px;}
+.currentDianJiOff{ background-image: url("images/bg-slide.png"); background-position: 0 -11px; }
+
 .floor2Right{width: 490px;height: 330px; float: right;}
 .floor2RightLeft{width: 225px; height: 330px; float: left; }
 .floor2RightLeftUp{width: 225px;height: 165px; padding: 0 10px 0 10px;}
 .floor2RightLeftFont{display: block;width: 225px;height: 40px; line-height: 40px;text-align: center;}
+.floor2RightLeftFont:hover{color: #e51a45;}
 .floor2RightRight{width: 225px; height: 330px; float: right; }
 
 
@@ -415,3 +440,50 @@ a{text-decoration: none; color: #333;}
 
 
 /*---------------------floor2 end-----------------------------------*/
+
+
+
+
+
+
+
+/*---------------------floor3-----------------------------------*/
+.floor3Title{width: 1000px;height: 30px;border-bottom: 2px solid #cb0f10; line-height: 30px;}
+.num3{width: 60px;height: 22px; float: left; background-image: url("images/ico-index-common.png"); background-position: 0 -218px;}
+.floor3Main{width: 970px; height: 330px; padding: 10px; margin: 0 5px 0 5px;}
+.floor3MainLeft{width: 460px; height: 330px;float: left;}
+.floor3LeftPic{width: 460px;height: 290px;}
+.floor3LeftFont{width: 440px; height: 30px; font-size: 20px; text-align: left; background-color: #cb0f10; color: #fff; padding: 10px 0 0 20px;}
+.floor3MainMiddle{width: 270px;height: 337px;padding: 0 0 0 25px; float: left;display: none;}
+.floor3MainMiddle1{display: block;}
+.floor3MainMiddleUp{width:270px ;height: 144px; margin: 0 0 21px 0;}
+.floor3MainMiddleUpLeft{width: 109px;height: 144px; margin: 0 0 20px 0; float: left;}
+.floor3MainMiddleUpRight{width: 151px;height: 146px; padding: 0 0 0 10px;float: left;}
+.font13{display: block; width: 151px;height: 52px; margin: 0 0 6px 0; font-size: 15px; text-align: left; color: #333; font-weight: bold; line-height: 26px;}
+.font13:hover{color: #e51a45;}
+.font14{line-height: 14px; text-align: left; margin: 0 0 8px 0;}
+.floor3MainMiddleDown{width: 270px;height: 149px; padding: 15px 0 0 0; border-top: 1px dashed #ccc; line-height: 24px; color: #999; text-align: left;}
+.floor3MainRight{width: 200px;height: 330px;float: right;}
+.floor3MainRightLi{width: 190px;height: 52px; border: 1px solid #f1f1f1; line-height: 52px; overflow: hidden; background-image: url("images/bg-index-common.png");background-position: 0 -240px;}
+.floor3MainRightLi:hover{ background-image:none; background-color: #cb0f10;}
+
+
+/*---------------------floor3 end-----------------------------------*/
+
+
+
+/*---------------------floor4-----------------------------------*/
+.floor4Title{width: 1000px;height: 30px;border-bottom: 2px solid #74c4fb; line-height: 30px; }
+.num4{width: 60px;height: 22px; float: left; background-image: url("images/ico-index-common.png"); background-position: 0 -240px;}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------floor4 end-----------------------------------*/
