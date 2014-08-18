@@ -1,0 +1,103 @@
+*{margin: 0;padding: 0;font-family: s_chinese, MS Song, Arial, Helvetica, sans-serif;}
+body{width: 100%;text-align: center;font-size: 12px;}
+li{list-style: none;font-family: s_chinese, 'MS Song', Arial, Helvetica, sans-serif; text-align: left; margin: 0 0 10px 0;}
+a{text-decoration: none; color: #333; font-size: 14px;}
+
+/*-----------------------------mainBody---------------------------*/
+#mainBody{width: 100%;height: 1078px;}
+/*-----------------------------mainBody end---------------------------*/
+
+/*-----------------------------top--------------------------------*/
+#top{width: 100%;height: 36px; background-color: #000000; position: relative;}
+#topLogo{width: 69px;height: 13px;background-image: url("images/sonyLogo_69x13.png");z-index: 10; float: right; position: absolute; top:12px;right: 100px;}
+
+
+/*-----------------------------top end--------------------------------*/
+
+
+
+
+/*-----------------------------main--------------------------------*/
+#main{width: 100%;height: 1042px; padding: 36px 0 0 0;}
+#mainLeft{width: 661px;height: 1042px; float:left;}
+#mainImg{width:661px;height: 1042px; }
+#mainRight{width: 644px; height: 1032px; float: left; background-color: rgb(247,247,247); padding: 10px 0 0 44px;}
+#signInLinkSection{width: 520px;height: 18px; padding: 5px 0 40px 0;}
+#signInLink{display: block; width: 28px;height: 16px; margin: 0 0 0 5px; float: right; line-height: 16px; color: #2c71a5;}
+#alreadyHave{width: 70px;height: 16px;float: right;font-size: 14px; color: #898989;}
+#SENLogo{width: 176px;height: 53px; padding: 0 0 35px 0; background-image: url("images/SEN_Logo_140x41.png"); background-repeat: no-repeat;}
+#createNewAccountHeaderTitle{width: 644px;height: 22px; padding: 0 0 20px 0;}
+#creatNew{font-size: 18px;text-align: left; font-family: s_chinese, MS Song, Arial, Helvetica, sans-serif;color: #898989; float: left; display: block; width: 100px;height: 22px;line-height: 22px; }
+#mainRegistrationForm{width: 644px; height: 819px;}
+.formLabel{width: 160px;height: 16px; padding: 7px 15px 0 0; float: left;}
+.regLabel_SignInID{width: 160px;height: 16px; text-align: left;line-height: 16px; font-size: 14px;}
+.formValue{width: 381px;height: 49px; margin: 0 0 20px 0; float: left;}
+.nowrap{width: 381px;height: 32px;}
+#account_loginNameFieldInput{width: 335px;height: 20px; padding: 4px; border: 1px solid #d7d7d7; background-color: white; float: left;}
+#signInIdContextualHelp{width: 22px;height: 22px; padding: 8px 0 0 10px; float: left; background-image: url("images/helpIcon.png"); background-repeat: no-repeat; background-position: 10px 4px;}
+#labelSignInIDExample{width: 381px;height: 15px;padding: 2px 0 0 0; text-align: left; line-height: 15px; color: #808080;}
+.formValue2{width: 355px;height: 28px; margin: 0 0 20px 0; float: left;}
+.div_yearDropDown{width: 80px;height: 28px; padding: 0 10px 0 0; float: left;}
+.yearDropDown{width: 70px;height: 18px; padding: 4px; border: 1px solid #d7d7d7;}
+.div_monthDropDown{width: 165px;height: 28px; padding: 0 10px 0 0; float: left;}
+.monthDropDown{width: 155px;height: 18px; padding: 4px; border: 1px solid #d7d7d7;}
+.div_dayDropDown{width: 80px;height: 28px; padding: 0 10px 0 0; float: left;}
+.dayDropDown{width: 70px;height: 18px; padding: 4px; border: 1px solid #d7d7d7;}
+.regLabel_Gender{width: 30px;height: 16px; line-height: 16px; text-align: left;float: left;font-size: 14px;}
+.genderOptional{width: 84px;height: 15px; text-align: left; float: left; color: #898989; font-size: 10px; font-style: italic; margin: 1px 0 0 0;}
+.formValue3{width: 355px;height: 33px; margin: 0 0 20px 0; float: left;}
+#genderMaleSection{width: 45px;height: 19px; padding: 5px; margin: 4px 0 0 0; float: left;}
+.chooseSex{float: left; margin: 3px 0 0 0;}
+.radioLabel{float: left; line-height: 19px; margin: 0 0 0 5px; color:#898989;font-size: 13px;}
+#genderFemaleSection{width: 45px;height: 19px; padding: 5px; margin: 4px 0 0 0; float: left; }
+.formValue4{width: 345px;height: 28px; margin: 0 0 20px 0; float: left;}
+.regInput_Country{width: 345px;height: 28px; padding: 4px; border: 1px solid #d7d7d7; display: block;}
+.moren{color: rgb(169, 169, 169);}
+.optionSelect{color: #333;}
+.formValue6{width: 345px; height: 32px; float: left; margin: 0 0 20px 0;}
+.grayBoxFormPadding{width: 329px; height: 16px; padding: 7px; border: 1px solid #dcdcdc;}
+.accountLanguage{width: 329px;height: 16px; text-align: left; display: block;}
+.formValue7{width: 345px;height: 30px; float: left; margin: 0 0 20px 0;}
+#account_password{width: 335px;height: 20px; padding: 4px; border: 1px solid #d7d7d7;}
+#confirmPasswordField{width: 335px;height: 20px; padding: 4px; border: 1px solid #d7d7d7;}
+.formValue8{width: 345px; height: 131px; margin: 0 0 0 0; float: left;}
+#recaptcha_image{width: 345px; height: 57px; margin: 0 0 5px 0;}
+#recaptcha_Pic{float: left;width: 300px;height: 57px;}
+#formValue8Down{width: 345px; height: 67px;}
+#recaptcha_response_field{width: 239px;height: 20px; padding: 4px; border: 1px solid #d7d7d7; float: left;}
+.recaptcha_new_challenge1{width: 21px;height: 21px; margin: 6px 0 0 10px; float: left; background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat;}
+.recaptcha_new_challenge1:hover{background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat; background-position: 0 -21px;}
+.recaptcha_new_challenge2{width: 21px;height: 21px; margin: 6px 0 0 10px; float: left; background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat; background-position: -23px 0;}
+.recaptcha_new_challenge2:hover{background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat; background-position: -23px -21px;}
+#regLabel_captchaPoweredBy{width: 345px; height: 15px; margin: 0 0 15px 0; padding: 30px 0 0 0; text-align: left; line-height: 15px; color: #808080; display: block;}
+#notificationSettingsWrapper{width: 644px; height: 130px; margin: 0 0 20px 0; padding: 570px 0 0 0;}
+#notificationDescription{width: 345px;height: 16px; text-align: left; line-height: 16px; display: block; font-size: 13px;}
+#notificationSettingsList{width: 644px;height: 104px; padding: 10px 0 0 0;}
+.notice{width: 644px;height: 32px; padding: 10px 0 10px 0;}
+.notificationCheckbox{width: 11px;height: 11px; border: 1px solid #999; float: left; margin: 9px 0 0 0;}
+.notificationDescription{width: 626px; height: 32px;float: left; text-align: left; margin: 0 0 0 5px;}
+#EULALegalBlurbSectionPC{width: 644px; height: 16px; margin: 20px 0 20px 0; text-align: left;}
+#tosEulaLink{ color: #2b71a5; font-size: 12px;text-decoration: underline;}
+#privacyEulaLink{ color: #2b71a5; font-size: 12px;text-decoration: underline;}
+#createAccountButtonSection{width: 644px;height: 72px; margin: 30px 0 0 0;}
+#createAccountButton{width: 156px;height: 16px; padding: 12px 24px 12px 24px; margin: 0 0 0 220px; background-color: #2c71a5; color: #fff;}
+#createAccountButton:hover{background-color:#1b85d4; }
+/*-----------------------------main end--------------------------------*/
+
+
+/*-----------------------------bottom--------------------------------*/
+#bottom{width: 100%;height: 200px; background-color: rgb(236,236,236);}
+#SNEI_UPF_SENLogo{width: 130px;height: 58px;padding: 20px 10px 20px 10px; float: left;}
+#SNEI_UPF_accountLinksDiv{width: 130px;height: 71px; padding: 20px 10px 20px 10px; float: left;}
+.bottomTitle{margin: 0 0 5px 0;color: #5C5C5C;}
+.bottomTitleA{margin: 0 0 15px 0;color: #5C5C5C;}
+#SNEI_UPF_legalLinksDiv{width: 130px;height: 119px; padding: 20px 10px 20px 10px; float: left;}
+#SNEI_UPF_helpLinksDiv{width: 130px;height: 47px; padding: 20px 10px 20px 10px;float: left;}
+.bottomTitleB{color: #5C5C5C; cursor: pointer;}
+.bottomTitleB:hover{color: #2b71a5;}
+#SNEI_UPF_copyright{width: 100%;height:15px; padding: 160px 0 0 0;}
+#bottomcopyright{width: 500px;height: 15px;padding: 5px 10px 0 10px; text-align: left;color: #5C5C5C;}
+
+
+
+/*-----------------------------bottom end--------------------------------*/
