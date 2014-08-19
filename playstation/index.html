@@ -4,6 +4,8 @@
 	<title></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
 	<div id="mainBody">
@@ -28,10 +30,13 @@
 						</div>
 						<div class="formValue">
 							<div class="nowrap">
-								<input id="account_loginNameFieldInput">
+								<input id="account_loginNameFieldInput" ShowA="1" value="Email&nbsp;地址">
 								<div id="signInIdContextualHelp"></div>
 							</div>
-							<div id="labelSignInIDExample">例如，myname@example.com</div>
+							<div id="labelSignInIDExample">
+								例如，myname@example.com
+								<div id="hiddensignIninfo"></div>
+							</div>
 						</div>
 
 
@@ -40,13 +45,77 @@
 						</div>
 						<div class="formValue2">
 							<div class="div_yearDropDown">
-								<input class="yearDropDown">
+								<select id="year" class="yearDropDown" onchange="setColor(this, options[selectedIndex]);">
+									<option style="color:rgb(169, 169, 169)">年</option>
+									<option class="xuanFont">2000</option>
+									<option class="xuanFont">2001</option>								
+									<option class="xuanFont">2002</option>
+									<option class="xuanFont">2003</option>
+									<option class="xuanFont">2004</option>
+									<option class="xuanFont">2005</option>
+									<option class="xuanFont">2006</option>
+									<option class="xuanFont">2007</option>
+									<option class="xuanFont">2008</option>
+									<option class="xuanFont">2009</option>
+									<option class="xuanFont">2010</option>
+									<option class="xuanFont">2011</option>
+									<option class="xuanFont">2012</option>
+									<option class="xuanFont">2013</option>
+									<option class="xuanFont">2014</option>
+								</select>
 							</div>
 							<div class="div_monthDropDown">
-								<input class="monthDropDown">
+								<select id="month" class="monthDropDown" onchange="setColor2(this, options[selectedIndex]);">
+									<option style="color:rgb(169, 169, 169)">月</option>
+									<option class="xuanFont">1</option>								
+									<option class="xuanFont">2</option>
+									<option class="xuanFont">3</option>
+									<option class="xuanFont">4</option>
+									<option class="xuanFont">5</option>
+									<option class="xuanFont">6</option>
+									<option class="xuanFont">7</option>
+									<option class="xuanFont">8</option>
+									<option class="xuanFont">9</option>
+									<option class="xuanFont">10</option>
+									<option class="xuanFont">11</option>
+									<option class="xuanFont">12</option>
+								</select>
 							</div>
 							<div class="div_dayDropDown">
-								<input class="dayDropDown">
+								<select id="day" class="dayDropDown"  onchange="setColor3(this, options[selectedIndex]);">
+									<option style="color:rgb(169, 169, 169)">日</option>
+									<option class="xuanFont">1</option>								
+									<option class="xuanFont">2</option>
+									<option class="xuanFont">3</option>
+									<option class="xuanFont">4</option>
+									<option class="xuanFont">5</option>
+									<option class="xuanFont">6</option>
+									<option class="xuanFont">7</option>
+									<option class="xuanFont">8</option>
+									<option class="xuanFont">9</option>
+									<option class="xuanFont">10</option>
+									<option class="xuanFont">11</option>
+									<option class="xuanFont">12</option>
+									<option class="xuanFont">13</option>								
+									<option class="xuanFont">14</option>
+									<option class="xuanFont">15</option>
+									<option class="xuanFont">16</option>
+									<option class="xuanFont">17</option>
+									<option class="xuanFont">18</option>
+									<option class="xuanFont">19</option>
+									<option class="xuanFont">20</option>
+									<option class="xuanFont">21</option>
+									<option class="xuanFont">22</option>
+									<option class="xuanFont">23</option>
+									<option class="xuanFont">24</option>
+									<option class="xuanFont">25</option>								
+									<option class="xuanFont">26</option>
+									<option class="xuanFont">27</option>
+									<option class="xuanFont">28</option>
+									<option class="xuanFont">29</option>
+									<option class="xuanFont">30</option>
+									<option class="xuanFont">31</option>
+								</select>
 							</div>
 						</div>
 
@@ -57,12 +126,12 @@
 						</div>
 						<div class="formValue3">
 							<div id="genderMaleSection">
-								<input class="chooseSex" type="radio">
+								<input class="chooseSex" type="radio" name="danxuan" checked="checked">
 								<div class="radioLabel">男</div>
 							</div>
 
 							<div id="genderFemaleSection">
-								<input class="chooseSex" type="radio">
+								<input class="chooseSex" type="radio" name="danxuan">
 								<div class="radioLabel">女</div>
 							</div>
 						</div>
@@ -73,7 +142,40 @@
 							<div class="regLabel_SignInID">国家/区域</div>
 						</div>
 						<div class="formValue4">
-							<select class="regInput_Country">
+							<select class="regInput_CountryA">
+								<option>Argentina</option>
+								<option>Australia</option>
+								<option>Austria</option>
+								<option>Bahrain</option>
+								<option>Belgium</option>
+								<option>Brazil</option>
+								<option>Bulgaria</option>
+								<option>Canada</option>
+								<option>Chile</option>
+								<option>Colombia</option>
+								<option>Croatia</option>
+								<option>Cyprus</option>
+								<option>Czech Republic</option>
+								<option>Denmark</option>
+								<option>Finland</option>
+								<option>France</option>
+								<option>Germany</option>
+								<option>Greece</option>
+								<option>Hungary</option>
+								<option>Iceland</option>
+								<option>India</option>
+								<option>Indonesia</option>
+								<option>Ireland</option>
+								<option>Israel</option>
+								<option>Italy</option>
+								<option>Japan</option>
+								<option>Korea</option>
+								<option>Kuwait</option>
+								<option>Lebanon</option>
+								<option>Luxembourg</option>
+								<option>Malaysia</option>
+								<option>Malta</option>
+								<option>Mexico</option>
 								<option value="CN" selected>中国</option>
 							</select>
 						</div>
@@ -83,9 +185,17 @@
 							<div class="regLabel_SignInID">省份</div>
 						</div>
 						<div class="formValue4">
-							<select class="regInput_Country"  style="color: rgb(169, 169, 169);">
-								<option value="choosewhere" style="color:#A9A9A9;">请选择州/省</option>
-								<option value="CN" class="optionSelect">中国</option>
+							<select id="reg_Country" class="regInput_Country" onchange="setColor4(this, options[selectedIndex]);">
+								<option style="color:rgb(169, 169, 169)">请选择州/省</option>
+								<option class="xuanFont">北京</option>
+								<option class="xuanFont">上海</option>
+								<option class="xuanFont">江苏</option>
+								<option class="xuanFont">浙江</option>
+								<option class="xuanFont">安徽</option>
+								<option class="xuanFont">山东</option>
+								<option class="xuanFont">湖南</option>
+								<option class="xuanFont">海南</option>
+								<option class="xuanFont">重庆</option>
 							</select>
 						</div>
 
@@ -105,16 +215,19 @@
 							<div class="regLabel_SignInID">创建密码</div>
 						</div>
 						<div class="formValue7">
-							<input id="account_password">
+							<input id="account_password" type="password" maxlength="12">
 						</div>
+						<div id="PasswordTishi"></div>
 
 
 						<div class="formLabel">
 							<div class="regLabel_SignInID">确认密码</div>
 						</div>
-						<div class="formValue7">
-							<input id="confirmPasswordField">
+						<div class="formValue7A">
+							<input id="confirmPasswordField" type="password" maxlength="12">
 						</div>
+						<div id="PasswordJianyan"></div>
+
 
 
 						<div class="formLabel">
@@ -125,7 +238,7 @@
 								<img id="recaptcha_Pic" src="images/image.jpg">
 							</div>
 							<div id="formValue8Down">
-								<input id="recaptcha_response_field">
+								<input id="recaptcha_response_field" maxlength="4">
 								<div class="recaptcha_new_challenge1"></div>
 								<div class="recaptcha_new_challenge2"></div>
 								<span id="regLabel_captchaPoweredBy">采用 reCAPTCHA 技术</span>
@@ -136,12 +249,12 @@
 							<span id="notificationDescription">希望通过电邮收到新产品、宣传信息的通知吗？</span>
 							<div id="notificationSettingsList">
 								<div class="notice">
-									<input style="checkbox" class="notificationCheckbox">
+									<input type="checkbox" class="notificationCheckbox">
 									<div class="notificationDescription">是的，我愿意根据Sony Computer Entertainment Hong Kong Limited的Sony Entertainment Network隐私政策接收与 Sony Entertainment Network产品和服务相关的信息。</div>
 								</div>
 
 								<div class="notice">
-									<input style="checkbox" class="notificationCheckbox">
+									<input type="checkbox" class="notificationCheckbox">
 									<div class="notificationDescription">是的，我愿意根据Sony Computer Entertainment Hong Kong Limited的Sony Entertainment Network隐私政策接收与 Sony Corporation电器及电子产品相关的信息。</div>
 								</div>
 							</div>
