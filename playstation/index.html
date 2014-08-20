@@ -26,12 +26,17 @@
 					</div>
 					<div id="mainRegistrationForm">
 						<div class="formLabel">
-							<div class="regLabel_SignInID">登录&nbsp;ID</div>
+							<div class="regLabel_SignInID">登录&nbsp;ID<a class="FontA1">&nbsp;&nbsp;(必填)</a></div>
 						</div>
 						<div class="formValue">
 							<div class="nowrap">
 								<input id="account_loginNameFieldInput" ShowA="1" value="Email&nbsp;地址">
-								<div id="signInIdContextualHelp"></div>
+								<div class="signInIdContextualHelp" show="1">
+									<div class="signInIdContextualHelpHide">
+										<li class="HelpFontA">建立登陆 ID 时，请使用有效的电子邮件地址。</li>
+									</div>
+									<div class="signInIdContextualHelpHide2"></div>
+								</div>
 							</div>
 							<div id="labelSignInIDExample">
 								例如，myname@example.com
@@ -212,7 +217,7 @@
 
 
 						<div class="formLabel">
-							<div class="regLabel_SignInID">创建密码</div>
+							<div class="regLabel_SignInID">创建密码<a class="FontA1">&nbsp;&nbsp;(必填)</a></div>
 						</div>
 						<div class="formValue7">
 							<input id="account_password" type="password" maxlength="12">
@@ -221,7 +226,7 @@
 
 
 						<div class="formLabel">
-							<div class="regLabel_SignInID">确认密码</div>
+							<div class="regLabel_SignInID">确认密码<a class="FontA1">&nbsp;&nbsp;(必填&nbsp6-12位)</a></div>
 						</div>
 						<div class="formValue7A">
 							<input id="confirmPasswordField" type="password" maxlength="12">
@@ -231,17 +236,27 @@
 
 
 						<div class="formLabel">
-							<div class="regLabel_SignInID">请输入图片中的字符</div>
+							<div class="regLabel_SignInID">请输入右侧的字符<a class="FontA1">&nbsp;&nbsp;(必填)</a></div>
+
 						</div>
 						<div class="formValue8">
 							<div id="recaptcha_image">
-								<img id="recaptcha_Pic" src="images/image.jpg">
+								<div id="recaptcha_Pic">
+									<div id="changePic">
+										<div id="sA"></div>
+										<div id="sB"></div>
+										<div id="sC"></div>
+										<div id="sD"></div>
+									</div>	
+								</div>
+								
 							</div>
 							<div id="formValue8Down">
 								<input id="recaptcha_response_field" maxlength="4">
 								<div class="recaptcha_new_challenge1"></div>
 								<div class="recaptcha_new_challenge2"></div>
 								<span id="regLabel_captchaPoweredBy">采用 reCAPTCHA 技术</span>
+								<div id="Infohide"></div>
 							</div>
 						</div>
 
@@ -249,12 +264,12 @@
 							<span id="notificationDescription">希望通过电邮收到新产品、宣传信息的通知吗？</span>
 							<div id="notificationSettingsList">
 								<div class="notice">
-									<input type="checkbox" class="notificationCheckbox">
+									<input type="checkbox" class="notificationCheckbox" id="noteA" choosed="0">
 									<div class="notificationDescription">是的，我愿意根据Sony Computer Entertainment Hong Kong Limited的Sony Entertainment Network隐私政策接收与 Sony Entertainment Network产品和服务相关的信息。</div>
 								</div>
 
 								<div class="notice">
-									<input type="checkbox" class="notificationCheckbox">
+									<input type="checkbox" class="notificationCheckbox" id="noteB" choosed="0">
 									<div class="notificationDescription">是的，我愿意根据Sony Computer Entertainment Hong Kong Limited的Sony Entertainment Network隐私政策接收与 Sony Corporation电器及电子产品相关的信息。</div>
 								</div>
 							</div>
@@ -272,6 +287,11 @@
 
 						<div id="createAccountButtonSection">
 							<div id="createAccountButton">我同意。请创建我的账号。</div>
+							<div id="createHide"></div>
+							<div id="hide1"></div>
+							<div id="hide2"></div>
+							<div id="hide3"></div>
+							<div id="hide4"></div>
 						</div>
 
 

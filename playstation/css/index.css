@@ -34,7 +34,10 @@ a{text-decoration: none; color: #333; font-size: 14px;}
 .formValue{width: 381px;height: 49px; margin: 0 0 20px 0; float: left;}
 .nowrap{width: 381px;height: 32px;}
 #account_loginNameFieldInput{width: 335px;height: 20px; padding: 4px; border: 1px solid #d7d7d7; background-color: white; float: left; color:#999;}
-#signInIdContextualHelp{width: 22px;height: 22px; padding: 8px 0 0 10px; float: left; background-image: url("images/helpIcon.png"); background-repeat: no-repeat; background-position: 10px 4px;}
+.signInIdContextualHelp{width: 22px;height: 22px; padding: 8px 0 0 10px; float: left; background-image: url("images/helpIcon.png"); background-repeat: no-repeat; background-position: 10px 4px;position: relative;}
+.signInIdContextualHelpHide{width: 115px;height: 60px;border:1px solid #cacaca;position: absolute;top:39px;left: 4px;background-color: white; display: none;}
+.signInIdContextualHelpHide2{width: 20px;height: 20px;background-image: url("images/hide.png"); position: absolute; top:26px;left: 11px;display: none;}
+.HelpFontA{text-align: left;color:#236A99;font-size: 11px;margin: 5px 0 0 0;}
 #labelSignInIDExample{width: 381px;height: 15px;padding: 2px 0 0 0; text-align: left; line-height: 15px; color: #808080;}
 #hiddensignIninfo{width: 120px;height: 15px; float: right; color: red; text-align: left;}
 .formValue2{width: 355px;height: 28px; margin: 0 0 20px 0; float: left;}
@@ -67,8 +70,8 @@ a{text-decoration: none; color: #333; font-size: 14px;}
 #account_password{width: 335px;height: 20px; padding: 4px; border: 1px solid #d7d7d7;}
 #confirmPasswordField{width: 335px;height: 20px; padding: 4px; border: 1px solid #d7d7d7;}
 .formValue8{width: 345px; height: 131px; margin: 0 0 0 0; float: left;}
-#recaptcha_image{width: 345px; height: 57px; margin: 0 0 5px 0;}
-#recaptcha_Pic{float: left;width: 300px;height: 57px;}
+#recaptcha_image{width: 345px; height: 35px; margin: 0 0 5px 0;}
+#recaptcha_Pic{float: left;width: 300px;height: 35px; text-align: left;line-height: 28px;padding: 2px 0 0 0; letter-spacing: 20px; font-weight: bold;}
 #formValue8Down{width: 345px; height: 67px;}
 #recaptcha_response_field{width: 239px;height: 20px; padding: 4px; border: 1px solid #d7d7d7; float: left;}
 .recaptcha_new_challenge1{width: 21px;height: 21px; margin: 6px 0 0 10px; float: left; background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat;}
@@ -76,6 +79,7 @@ a{text-decoration: none; color: #333; font-size: 14px;}
 .recaptcha_new_challenge2{width: 21px;height: 21px; margin: 6px 0 0 10px; float: left; background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat; background-position: -23px 0;}
 .recaptcha_new_challenge2:hover{background-image: url("images/captchaIcons.gif"); background-repeat: no-repeat; background-position: -23px -21px;}
 #regLabel_captchaPoweredBy{width: 345px; height: 15px; margin: 0 0 15px 0; padding: 30px 0 0 0; text-align: left; line-height: 15px; color: #808080; display: block;}
+#Infohide{width: 345px;height: 15px; color: red; text-align: left;}
 #notificationSettingsWrapper{width: 644px; height: 130px; margin: 0 0 20px 0; padding: 570px 0 0 0;}
 #notificationDescription{width: 345px;height: 16px; text-align: left; line-height: 16px; display: block; font-size: 13px;}
 #notificationSettingsList{width: 644px;height: 104px; padding: 10px 0 0 0;}
@@ -88,6 +92,17 @@ a{text-decoration: none; color: #333; font-size: 14px;}
 #createAccountButtonSection{width: 644px;height: 72px; margin: 30px 0 0 0;}
 #createAccountButton{width: 156px;height: 16px; padding: 12px 24px 12px 24px; margin: 0 0 0 220px; background-color: #2c71a5; color: #fff;}
 #createAccountButton:hover{background-color:#1b85d4; }
+#createHide{width: 300px;height: 16px; padding: 12px 24px 0 24px; margin: 0 0 0 153px; color: red;text-align: center;}
+#hide1{width: 100px;height: 20px; display: none;}
+#hide2{width: 100px;height: 20px; display: none;}
+#hide3{width: 100px;height: 20px; display: none;}
+#hide4{width: 100px;height: 20px; display: none;}
+.FontA1{color: #898989;font-size: 2px;font-style: italic;}
+#sA{width: 30px; height: 35px;float: left; font-family: Segoe Print; font-size: 25px;}
+#sB{width: 30px; height: 35px;float: left; font-family: Gabriola; font-size: 25px;}
+#sC{width: 30px; height: 35px;float: left; font-family: Segoe Script; font-size: 25px;}
+#sD{width: 30px; height: 35px;float: left; font-family: IrisUPC; font-size: 25px;}
+#changePic{width: 120px; height: 35px;float: left; background-image: url("../images/1.gif");}
 /*-----------------------------main end--------------------------------*/
 
 
