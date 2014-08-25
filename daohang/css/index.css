@@ -2,7 +2,7 @@
 body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
 
 
-#LM1{width: 100%;height: 100px; border:1px solid #ccc; text-align: center;line-height:100px;}
+#LM1{width: 100%;height: 100px;  text-align: center;line-height:100px;}
 #ditC{width: 1200px; height: 50px; border:1px solid #ccc; margin: 25px auto; line-height:50px;}
 #ditDateA{width: 200px;height: 50px;float: right; border:1px solid #ccc;}
 .dit{width: 20px; height: 30px; float: left; background-image: url("images/dig.png");}
@@ -10,6 +10,34 @@ body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
 .ditmao{width: 20px; height: 30px; float: left; background-image: url("images/dig.png"); background-position: 0 -300px; }
 .ditheng{width: 20px; height: 30px; float: left; background-image: url("images/dig.png"); background-position: 0 -330px; }
 
-#LM2{width: 100%;height: 400px; border:1px solid #ccc;margin: 10px 0 0 0;}
-#zuopin{width:80px;height: 30px;margin: auto;}
-.YS{font-size: 30px; color: blue; text-decoration: none;}
+#LM2{width: 100%;height: 665px;/* margin: 10px 0 0 0;*/background-image: url("images/zz1.png"); background-position: 330px 200px;position: absolute;}
+#zuopin{width:80px;height: 30px;margin: auto;text-align: left;}
+.YS{font-size: 30px; color: blue; text-decoration: none;box-shadow: 3px 3px 3px rgb(191,50,211);background-color: gray;margin: 10px 0 0 0;display: block;}
+.color1{color: rgb(191,50,211);}
+.color2{color: rgb(0,0,0);}
+.color3{color: rgb(255,255,255);}
+.color4{color: rgb(0,255,0);}
+.color5{color: rgb(191,50,211);}
+.color6{color: rgb(0,0,0);}
+.color7{color: rgb(255,255,255);}
+
+.big{width: 1000px;height: 665px;margin: auto;}
+.kuangjia{width: 200px;height: 170px;float: left; margin: 110px 25px 0px 25px;}
+.pic{width: 200px;height: 130px;background-color: red;box-shadow: 3px 3px 3px rgb(191,50,211);}
+
+.pic1{width: 200px;height: 130px;}
+.pic2{width: 200px;height: 130px;}
+.pic3{width: 200px;height: 130px;}
+.pic4{width: 200px;height: 130px;}
+.pic5{width: 200px;height: 130px;}
+.pic6{width: 200px;height: 130px;}
+.pic7{width: 200px;height: 130px;}
+
+
+.Next{width: 280px;height: 240px;position: absolute;bottom: 50px;right: 60px;z-index: 10;background-color: yellow;opacity: 0.3;cursor: pointer;}
+.Return{width: 280px;height: 240px;position: absolute;bottom: 50px;right: 60px;z-index: 10;background-color: yellow;opacity: 0.3;cursor: pointer;}
+
+#LM3{width: 100%;height: 665px;/* margin: 10px 0 0 0;*//*background-image: url("images/zz1.png");*/ background-position: 330px 200px;position: absolute;top: 665px;}
+
+#showpic{width: 100%;height: 665px;overflow: hidden;position: relative;}
+.logo{width: 200px;height: 60px;}

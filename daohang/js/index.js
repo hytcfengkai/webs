@@ -41,3 +41,16 @@ function showDigit(ct){
 	$("#s2").css("background-position","0px -" +s2*30+"px");
 
 }
+
+
+
+$(function(){
+	$(".Next").click(function(){
+		$("#LM2").stop().animate({"top": "-665px"},2000);
+		$("#LM3").stop().animate({"top": "0"},2000);
+	});
+	$(".Return").click(function(){
+		$("#LM2").stop().animate({"top": "0"},2000);
+		$("#LM3").stop().animate({"top": "665"},2000);
+	});
+});
