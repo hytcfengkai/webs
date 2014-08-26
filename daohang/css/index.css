@@ -1,5 +1,5 @@
 *{margin: 0;padding: 0;}
-body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
+body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;cursor: url("images/文件名.cur"),auto;}
 
 
 #LM1{width: 100%;height: 100px;  text-align: center;line-height:100px;}
@@ -10,7 +10,7 @@ body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
 .ditmao{width: 20px; height: 30px; float: left; background-image: url("images/dig.png"); background-position: 0 -300px; }
 .ditheng{width: 20px; height: 30px; float: left; background-image: url("images/dig.png"); background-position: 0 -330px; }
 
-#LM2{width: 100%;height: 665px;/* margin: 10px 0 0 0;*/background-image: url("images/zz1.png"); background-position: 330px 200px;position: absolute;}
+#LM2{width: 100%;height: 665px;/* margin: 10px 0 0 0;*//*background-image: url("images/zz1-1.png"); background-position: 330px 200px;*/position: absolute;}
 #zuopin{width:80px;height: 30px;margin: auto;text-align: left;}
 .YS{font-size: 30px; color: blue; text-decoration: none;box-shadow: 3px 3px 3px rgb(191,50,211);background-color: gray;margin: 10px 0 0 0;display: block;}
 .color1{color: rgb(191,50,211);}
@@ -23,7 +23,7 @@ body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
 
 .big{width: 1000px;height: 665px;margin: auto;}
 .kuangjia{width: 200px;height: 170px;float: left; margin: 110px 25px 0px 25px;}
-.pic{width: 200px;height: 130px;background-color: red;box-shadow: 3px 3px 3px rgb(191,50,211);}
+.pic{width: 200px;height: 130px;background-color: red;box-shadow: 3px 3px 3px rgb(191,50,211); cursor: url("images/zz15-1.cur"),auto;}
 
 .pic1{width: 200px;height: 130px;}
 .pic2{width: 200px;height: 130px;}
@@ -34,10 +34,23 @@ body{width: 100%;text-align: center;font-size: 12px;font-family: 宋体;}
 .pic7{width: 200px;height: 130px;}
 
 
-.Next{width: 280px;height: 240px;position: absolute;bottom: 50px;right: 60px;z-index: 10;background-color: yellow;opacity: 0.3;cursor: pointer;}
-.Return{width: 280px;height: 240px;position: absolute;bottom: 50px;right: 60px;z-index: 10;background-color: yellow;opacity: 0.3;cursor: pointer;}
+.Next{width: 280px;height: 240px;position: absolute;bottom: 50px;right: 60px;z-index: 10;/*background-color: yellow;*/opacity: 0.3;cursor: url("images/zz16-2.cur"),auto;}
+.Return{width: 280px;height: 240px;position: absolute;bottom: 50px;right: 60px;z-index: 10;/*background-color: yellow;*/opacity: 0.3;cursor: url("images/zz17-2.cur"),auto;}
 
-#LM3{width: 100%;height: 665px;/* margin: 10px 0 0 0;*//*background-image: url("images/zz1.png");*/ background-position: 330px 200px;position: absolute;top: 665px;}
+#LM3{width: 100%;height: 665px;/* margin: 10px 0 0 0;*//*background-image: url("images/zz1-1.png"); background-position: 330px 200px;*/position: absolute;top: 665px;}
 
-#showpic{width: 100%;height: 665px;overflow: hidden;position: relative;}
+#showpic{width: 100%;height: 665px;overflow: hidden;position: relative;background-image: url("images/zz1-1.png"); background-position: 330px 200px;}
 .logo{width: 200px;height: 60px;}
+
+.people1{width: 207px;height: 665px;background-image: url("images/zz8.png");position: absolute; z-index: 1000;background-position: -130px -30px;opacity: 0;}
+.people2{width: 207px;height: 665px;background-image: url("images/zz11.png");position: absolute; z-index: 1000;background-position: -190px -30px;opacity: 0;}
+.people3{width: 207px;height: 665px;background-image: url("images/zz9-1.png");position: absolute; z-index: 1000;background-position: -300px -30px;opacity: 0;}
+.people4{width: 207px;height: 665px;background-image: url("images/zz12.png");position: absolute; z-index: 1000;background-position: -260px -30px;opacity: 0;}
+.people5{width: 207px;height: 665px;background-image: url("images/zz6-2.png");position: absolute; z-index: 1000;background-position: -330px -30px;opacity: 0;}
+.people6{width: 207px;height: 665px;background-image: url("images/zz7.png");position: absolute; z-index: 1000;background-position: -330px -30px;opacity: 0;}
+.people7{width: 207px;height: 665px;background-image: url("images/zz10.png");position: absolute; z-index: 1000;background-position: -260px -30px;opacity: 0;}
+
+
+.smallpeople{width:140px;height: 160px;background-image: url("images/zz13-1.png");z-index: 20;position: absolute;right: 60px; top: 120px; }
+
+.hidemore{width: 250px;height: 100px;background-image: url("images/zz18-1.png");background-repeat: no-repeat;position:absolute;top:0;left: 0;z-index: 10000;opacity: 0;}
