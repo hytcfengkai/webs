@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;font-family: punctuation, 微软雅黑;}
+body{width: 100%;text-align: center;font-size: 12px;font-family: punctuation, 微软雅黑;}
+li{list-style: none;font-family: punctuation, 微软雅黑; text-align: left; margin: 0 0 10px 0;}
+a{text-decoration: none; color: #333; font-size: 12px;font-family: punctuation, 微软雅黑;}
+span{color: #333; font-size: 12px;font-family: punctuation, 微软雅黑;}
+
+
+/*--------------------------------------顶部导航栏---------------------------------------*/
+.top_fix_bar{width: 100%;height: 41px;background-color: rgb(31, 31, 31);position: absolute;top: 0;left: 0;position: fixed;}
+/*.top_fix_inner{width: 1000px;height: 41px;margin: auto;background-color: yellow;}*/
+.logo{width: 90px;height: 41px;background-image: url("images/icenter.32-jan140807095541.png");background-position: -62px 0px;margin: 0 0 0 185px;float: left;}
+.top_nav{width: 423px;height: 41px;padding: 0 0 0 10px;float: left;}
+#tb_ic_li{width: 91px;height: 41px;float: left;}
+.nav_list{position: relative;}
+#aIcenter{width: 48px;height: 40px;padding: 0 10px 0 33px;margin: 1px 0 0 0;color: #fff; line-height: 40px;display: block;}
+.ui_icon{background-image: url("images/35.32-jan140811165800.png");width: 16px;height: 16px;top: 13px;left: 10px;position: absolute;}
+.icon_icenter{background-position: -740px -50px;}
+#tb_index_li{width: 101px;height: 41px;float: left;}
+#aMainPage{width: 48px;height: 40px;padding: 0 20px 0 33px;margin: 1px 0 0 0;color: #fff; line-height: 40px;display: block;}
+.icon_homepage{background-position: -740px -100px;}
+.drop_down_arrow{position: absolute;top: 20px;right: 8px;width: 0;height: 0; border-width: 3px;border-style: solid dashed dashed dashed;border-left-color: transparent;border-right-color: transparent;border-bottom-color: transparent;border-top-color: #fff;}
+#tb_friend_li{width: 77px;height: 41px;float: left;}
+#aMyFriends{width: 24px;height: 40px;padding: 0 20px 0 33px;margin: 1px 0 0 0;color: #fff; line-height: 40px;display: block;}
+.icon_friend{background-position: -740px -75px;}
+#tb_app_li{width: 77px;height: 41px;float: left;}
+#aAppstore{width: 24px;height: 40px;padding: 0 20px 0 33px;margin: 1px 0 0 0;color: #fff; line-height: 40px;display: block;}
+.icon_application{background-position: -740px -125px;}
+#tb_dress_li{width: 77px;height: 41px;float: left;}
+#aMall{width: 24px;height: 40px;padding: 0 20px 0 33px;margin: 1px 0 0 0;color: #fff; line-height: 40px;display: block;}
+.icon_dress_up{background-position: -740px -150px;}
+
+.user_info{width: 184px;height: 41px;padding: 0 0 0 10px; float: right;margin: 0 201px 0 0;}
+.user_home{width: 84px;height: 41px;padding: 0 5px 0 5px;float: left;}
+.user_avatar{width: 24px;height: 24px;margin: 9px 8px 0 0;float: left;}
+.user_name{width: 48px;height: 41px;color: #fff;display: inline-block; line-height: 41px;float: right;}
+.logout_new{width: 26px;height: 41px;float: left;margin: 0 0 0 4px;}
+.ui_icon_1{background-image: url("images/35.32-jan140811165800.png");width: 16px;height: 16px;margin: 13px 0 0 5px;}
+.icon_logout{background-position: -765px -75px;}
+.user_setting{width: 26px;height: 41px;float: left;margin: 0 0 0 4px;}
+#tb_setting_i{background-position: -765px -100px;}
+#tb_vip_li{width: 26px;height: 41px;margin: 0 0 0 4px;float: left;}
+.icon_vip{background-image: url("images/qzone-vip.gif");background-repeat: no-repeat;width: 22px;height: 19px;margin: 12px 0 0 2px;}
+
+.top_search{width: 135px;height: 24px;margin: 9px 0 0 5px;float: right;position: relative;}
+.search_box{width: 135px;height: 20px;padding: 2px 0 2px 0;}
+.search_input{width: 105px;height: 20px;padding: 0 25px 0 5px;background-color: rgba(255, 255, 255, 0.247059);border: none;border-radius: 2px;outline: none; font-size: 12px;}
+input::-webkit-input-placeholder {color:rgb(204,204,204);}
+/*input:-moz-placeholder {color:yellow;}*/
+.search_button{width: 24px;height: 20px;position: absolute;top: 2px;right: 0;}
+.icon_search{width: 16px;height: 16px;margin: 2px 0 0 5px;background-image: url("images/35.32-jan140811165800.png");background-position: -765px -150px;}
+
+
+/*--------------------------------------顶部导航栏 end---------------------------------------*/
