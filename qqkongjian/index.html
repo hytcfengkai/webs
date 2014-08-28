@@ -8,55 +8,168 @@
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-	<div class="top_fix_bar">
-		<!-- <div class="top_fix_inner"></div> -->
-		<div class="logo"></div>
-		<div class="top_nav">
-			<div class="nav_list" id="tb_ic_li">
-				<a href="#" id="aIcenter">个人中心</a>
-				<div class="ui_icon icon_icenter"></div>
+	<div class="top_color">
+		<div class="top_fix_bar">
+			<!-- <div class="top_fix_inner"></div> -->
+			<div class="logo"></div>
+			<div class="top_nav">
+				<div class="nav_list" id="tb_ic_li">
+					<a href="#" id="aIcenter">个人中心</a>
+					<div class="ui_icon icon_icenter"></div>
+				</div>
+				<div class="nav_list" id="tb_index_li">
+					<a href="#" id="aMainPage">我的主页</a>
+					<div class="ui_icon icon_homepage"></div>
+					<div class="drop_down_arrow"></div>
+					<div class="nav_drop_down">
+						<div class="side_area">
+							<div class="homepage_link">
+								<div class="link_icon">
+									<div class="icon_homepage_1"></div>
+								</div>
+								<div class="link_text">主页</div>
+							</div>
+						</div>
+						<div class="main_area">
+							<div class="main_application">
+								<div id="tb_menu_list">
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_1"></div>
+										<div class="app_name">日志</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_2"></div>
+										<div class="app_name">相册</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_3"></div>
+										<div class="app_name">说说</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_4"></div>
+										<div class="app_name">分享</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_5"></div>
+										<div class="app_name">时光轴</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_6"></div>
+										<div class="app_name">视频</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_7"></div>
+										<div class="app_name">音乐</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_8"></div>
+										<div class="app_name">留言板</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_9"></div>
+										<div class="app_name">个人档</div>
+									</div>
+									<div class="menu_item_2">
+										<div class="icon_blog icon_blog_10"></div>
+										<div class="app_name">收藏</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="nav_list" id="tb_friend_li">
+					<a href="#" id="aMyFriends">好友</a>
+					<div class="ui_icon icon_friend"></div>
+					<div class="drop_down_arrow"></div>
+					<div id="friends_drop_down">
+						<div class="side_area_2">
+							<div class="friends_link">
+								<div class="link_icon">
+									<div class="icon_friends_1"></div>
+								</div>
+								<div class="link_text">寻找好友</div>
+							</div>
+							<div class="friends_relation">
+								<div class="link_icon">
+									<div class="icon_relation_1"></div>
+								</div>
+								<div class="link_text">亲密度</div>
+							</div>
+						</div>
+						<div class="main_area_2">
+							<div class="mod_friends_topbar">
+								<div class="inner">
+									<div class="hd">
+										<div class="hd_font">最近联络的好友</div>
+										<div class="friends_search_topbar">
+											<input type="text" placeholder="搜索好友" id="friend_search_input">
+											<div class="search_button_1">
+												<div class="sp_top_search"></div>
+											</div>
+										</div>
+									</div>
+									<div class="bd">
+										<div id="friends_list_topbar">
+											<div class="friends_A">
+												<a href="#" class="friends_pic">
+													<img class="pic_size" src="images/100.jpg">
+													<span class="name_ellipsis">『白』</span>
+												</a>
+												<div class="number">
+													<a class="icon_relation"></a>
+													51
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="nav_list" id="tb_app_li">
+					<a href="#" id="aAppstore">应用</a>
+					<div class="ui_icon icon_application"></div>
+					<div class="drop_down_arrow"></div>
+				</div>
+				<div class="nav_list" id="tb_dress_li">
+					<a href="#" id="aMall">装扮</a>
+					<div class="ui_icon icon_dress_up"></div>
+					<div class="drop_down_arrow"></div>
+				</div>
 			</div>
-			<div class="nav_list" id="tb_index_li">
-				<a href="#" id="aMainPage">我的主页</a>
-				<div class="ui_icon icon_homepage"></div>
-				<div class="drop_down_arrow"></div>
+			<div class="user_info">
+				<div class="user_home">
+					<img class="user_avatar" src="images/30.png">
+					<span class="user_name textoverflow">七宫智音</span>
+				</div>
+				<div class="logout_new" id="tb_logout">
+					<div class="ui_icon_1 icon_logout"></div>
+				</div>
+				<div class="user_setting" id="tb_setting_li">
+					<div id="tb_setting_i" class="ui_icon_1"></div>
+				</div>
+				<div id="tb_vip_li">
+					<div class="icon_vip"></div>
+				</div>
 			</div>
-			<div class="nav_list" id="tb_friend_li">
-				<a href="#" id="aMyFriends">好友</a>
-				<div class="ui_icon icon_friend"></div>
-				<div class="drop_down_arrow"></div>
+			<div class="top_search">
+				<div class="search_box">
+					<input class="search_input" type="text" placeholder="用户/应用">
+					<div class="search_button">
+						<div class="icon_search"></div>
+					</div>
+				</div>
 			</div>
-			<div class="nav_list" id="tb_app_li">
-				<a href="#" id="aAppstore">应用</a>
-				<div class="ui_icon icon_application"></div>
-				<div class="drop_down_arrow"></div>
-			</div>
-			<div class="nav_list" id="tb_dress_li">
-				<a href="#" id="aMall">装扮</a>
-				<div class="ui_icon icon_dress_up"></div>
-				<div class="drop_down_arrow"></div>
-			</div>
-		</div>
-		<div class="user_info">
-			<div class="user_home">
-				<img class="user_avatar" src="images/30.png">
-				<span class="user_name textoverflow">七宫智音</span>
-			</div>
-			<div class="logout_new" id="tb_logout">
-				<div class="ui_icon_1 icon_logout"></div>
-			</div>
-			<div class="user_setting" id="tb_setting_li">
-				<div id="tb_setting_i" class="ui_icon_1"></div>
-			</div>
-			<div id="tb_vip_li">
-				<div class="icon_vip"></div>
-			</div>
-		</div>
-		<div class="top_search">
-			<div class="search_box">
-				<input class="search_input" type="text" placeholder="用户/应用">
-				<div class="search_button">
-					<div class="icon_search"></div>
+			<div class="music_container">
+				<div class="music_panel">
+					<div class="music_play">
+						<div class="ui_icon1 ico_music_stop"></div>
+					</div>
+					<div class="music_dynamic">
+						<div class="ui_icon1 ico_music_dynamic"></div>
+					</div>
 				</div>
 			</div>
 		</div>

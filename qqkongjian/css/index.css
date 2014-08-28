@@ -6,7 +6,8 @@ span{color: #333; font-size: 12px;font-family: punctuation, 微软雅黑;}
 
 
 /*--------------------------------------顶部导航栏---------------------------------------*/
-.top_fix_bar{width: 100%;height: 41px;background-color: rgb(31, 31, 31);position: absolute;top: 0;left: 0;position: fixed;}
+.top_color{width: 100%;height: 41px;background-color: rgb(31, 31, 31);position: absolute;top: 0;left: 0;position: fixed;}
+.top_fix_bar{width: 100%;height: 41px;/*background-color: rgb(31, 31, 31);position: absolute;top: 0;left: 0;position: fixed;z-index: 1000;*/}
 /*.top_fix_inner{width: 1000px;height: 41px;margin: auto;background-color: yellow;}*/
 .logo{width: 90px;height: 41px;background-image: url("images/icenter.32-jan140807095541.png");background-position: -62px 0px;margin: 0 0 0 185px;float: left;}
 .top_nav{width: 423px;height: 41px;padding: 0 0 0 10px;float: left;}
@@ -48,6 +49,62 @@ input::-webkit-input-placeholder {color:rgb(204,204,204);}
 /*input:-moz-placeholder {color:yellow;}*/
 .search_button{width: 24px;height: 20px;position: absolute;top: 2px;right: 0;}
 .icon_search{width: 16px;height: 16px;margin: 2px 0 0 5px;background-image: url("images/35.32-jan140811165800.png");background-position: -765px -150px;}
+.music_container{width: 50px;height: 20px;padding: 10px;margin: 1px 0 0 0;float: right;}
+.music_panel{width: 50px;height: 20px;}
+.music_play{width: 22px;height: 20px;margin: 0 1px 0 0;float: left;background-color: rgb(48, 48, 48);}
+.music_dynamic{width: 27px;height: 20px;float: left;background-color: rgb(48, 48, 48);}
+.ui_icon1{width: 16px;height: 16px;margin: 2px 0 0 0;background-image: url("images/35.32-jan140811165800.png");}
+.ico_music_stop{background-position: -762px 0px;}
+.ico_music_dynamic{width: 20px;background-position: -760px -50px; margin: -1px 0 0 1px;}
 
+
+
+
+.nav_drop_down{width: 520px;height: 0;position: absolute;top: 41px;left: -1px;background-color: rgb(255, 255, 255);overflow: hidden;}
+.side_area{position: relative;float: left;width: 101px;height: 221px;border-left: #a6a6a6 1px solid;border-top: #fff 1px solid;border-bottom: #a6a6a6 1px solid;}
+.homepage_link{width: 50px;height: 74px;position: absolute;top: 30px;left: 24px;}
+.link_icon{width: 48px;height: 48px;border:1px solid #e2e2e2;}
+.icon_homepage_1{width: 24px;height: 24px;margin: 12px;background-image: url("images/icenter-jan140807095541.png");background-position: -39px -102px;}
+.link_text{width: 50px;height: 16px;margin: 8px 0 0 0; text-align: center; color: rgb(51, 51, 51);cursor: pointer;font-family: punctuation, 微软雅黑;font-size: 12px;line-height: 16px;}
+.main_area{position: relative;float: left;width: 417px;height: 221px;border-right: #a6a6a6 1px solid;border-top: #a6a6a6 1px solid;border-bottom: #a6a6a6 1px solid;}
+.main_application{width: 380px;height: 166px;padding: 0 0 0 18px;border-left: #e9e9e9 1px solid;position: absolute;top: 30px;left: 5px;}
+#tb_menu_list{width: 380px;height: 186px;margin: -20px 0 0 0;}
+.menu_item_2{width: 75px;height: 73px;margin: 20px 0 0 0;float: left;}
+.icon_blog{width: 50px;height: 50px;margin: auto;background-image: url("images/icenter-jan140807095541.png");}
+.app_name{width: 75px;height: 16px;margin: 8px 0 0 0; text-align: center; color: rgb(51, 51, 51);cursor: pointer;font-family: punctuation, 微软雅黑;font-size: 12px;line-height: 16px;}
+.icon_blog_1{background-position: 0 0px;}
+.icon_blog_2{background-position: 0 -51px;}
+.icon_blog_3{background-position: -51px 0;}
+.icon_blog_4{background-position:-51px -51px;}
+.icon_blog_5{background-position: -102px 0;}
+.icon_blog_6{background-position: -102px -51px;}
+.icon_blog_7{background-position: -153px 0;}
+.icon_blog_8{background-position: -153px -51px;}
+.icon_blog_9{background-position: -204px 0;}
+.icon_blog_10{background-position: -204px -51px;}
+
+#friends_drop_down{width: 520px;height: 312px;position: absolute;top: 41px;left: -1px;}
+.side_area_2{float: left;width: 77px;height: 310px;border-left: #a6a6a6 1px solid;border-top: #fff 1px solid;border-bottom: #a6a6a6 1px solid;position: relative;}
+.friends_link{width: 50px;height: 74px;position: absolute;top: 30px;left: 24px;}
+.icon_friends_1{width: 24px;height: 24px;margin: 12px;background-image: url("images/icenter-jan140807095541.png");background-position: -189px -102px;}
+.friends_relation{width: 50px;height: 74px;position: absolute;top: 121px;left: 24px;}
+.icon_relation_1{width: 16px;height: 16px;margin: 16px;background-image: url("images/icenter.32-jan140807095541.png");background-position:-287px -34px;}
+.main_area_2{float: left;width: 417px;height: 310px;padding: 0 0 0 24px;border-right: #a6a6a6 1px solid;border-top: #a6a6a6 1px solid;border-bottom: #a6a6a6 1px solid;position: relative;}
+.mod_friends_topbar{width: 356px;height: 260px;padding: 0 0 0 30px;margin: 30px 30px 20px 0;border-left: #e9e9e9 1px solid;}
+.inner{width: 356px;height: 260px;}
+.hd{width: 356px;height: 37px;position: relative;}
+.hd_font{width: 356px;height: 24px;text-align: left;line-height: 24px;color: rgb(64, 64, 64);font-family: punctuation, 微软雅黑;font-size: 12px;float: left;}
+.friends_search_topbar{width: 126px;height: 23px;border: 1px #e0e0e0 solid;position: absolute;top: 0;right: 0;}
+#friend_search_input{background-color: rgb(250, 250, 250);;width: 86px;height: 15px;padding: 4px 0 4px 0;margin: 0 0 0 10px;outline: none;border: none;float: left;font-size: 12px;}
+.search_button_1{width: 30px;height: 25px;float: left;}
+.sp_top_search{width: 16px;height: 16px;margin: 4px 0 0 4px;display: inline-block;background-image: url("images/icenter-jan140807095541.png");background-position: -337px -34px;}
+.bd{width: 356px;height: 105px;}
+#friends_list_topbar{width: 391px;height: 105px;margin: 0 -35px 0 0;}
+.friends_A{width: 70px;height: 105px;margin: 0 25px 0 0;float: left;}
+.friends_pic{display: block;width: 70px;height: 70px;margin: 0 0 8px 0;position: relative;}
+.pic_size{width: 70px;height: 70px;border-radius: 3px;}
+.name_ellipsis{border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0px, rgba(0, 0, 0, 0.701961) 100%);position: absolute;left: 0;bottom: 0;text-align: center;display: block;width: 70px;height: 20px;line-height: 20px;white-space: nowrap;word-wrap: normal;color: #fff;}
+.number{width: 70px;height: 16px;line-height: 16px;font-family: punctuation, 微软雅黑;font-size: 12px;text-align: center;}
+.icon_relation{width: 13px;height: 13px;margin: 0 1px 0 0;background-image: url("images/icenter.32-jan140807095541.png");background-position: -287px -50px;display: inline-block;}
 
 /*--------------------------------------顶部导航栏 end---------------------------------------*/
